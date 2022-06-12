@@ -1,0 +1,205 @@
+@media print,
+(max-width: 767px) {
+
+/* ABOUT START */
+    .breadcrumbs a, 
+    .breadcrumbs .sep, 
+    .breadcrumbs .current {
+        font-size: 15px;
+    }
+    .mt84 {
+        margin-top: 48px;
+    }
+    .block {
+        margin-top: 48px;
+    }
+    .about_info .desc p, 
+    .about_info ul li {
+        font-size: 17px;
+    }
+    .case .block_head .desc {
+        font-size: 18px;
+    }
+    .case_items {
+        margin-left: -20px;
+        margin-bottom: -20px;
+        justify-content: center;
+    }
+    .case_items > * {
+        width: calc(100%/2 - 20px);
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .reason_logo {
+        display: none;
+    }
+    .reason_wrap {
+        padding: 25px;
+    }
+    .team .block_head .desc {
+        font-size: 18px;
+    }
+    .registry_wrap {
+        flex-direction: column-reverse;
+        padding: 25px 0;
+    }
+    .registry .data {
+        margin-left: 0px;
+    }
+    .registry ul li {
+        font-size: 18px;
+        line-height: 130%;
+    }
+    .reason .block_head {
+        margin-bottom: 30px;
+    }
+
+/* ABOUT END */
+
+
+/* CAREER START */
+
+    .career_info .desc p {
+        font-size: 17px;
+    }
+    .career .block_head .desc {
+        font-size: 18px;
+    }
+    .career_info .link {
+        font-size: 18px;
+        padding: 11px 17px 14px;
+    }
+    .career_info .image {
+        width: 390px;
+    }
+    .career_info .image .bg {
+        top: -148px;
+        left: -18px;
+        width: 410px;
+        height: 705px;
+    }
+    .benefits_items {
+        margin-bottom: -50px;
+    }
+    .benefits_items > * {
+        width: 100%;
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+    .benefits_item:before {
+        font-size: 39px;
+        line-height: 60px;
+        top: -28px;
+        left: 25px;
+        width: 60px;
+        height: 60px;
+    }
+    .benefits_item {
+        padding: 50px 25px 25px;
+    }
+    .benefits_item-name {
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+    .vacancy-search ul li {
+        font-size: 18px;
+        line-height: 140%;
+        padding-left: 40px;
+        margin-bottom: 20px;
+    }
+    .vacancy-search ul li .icon {
+        top: 6px;
+        left: 0;
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+    .vacancy-search .form input {
+        height: 55px;
+        font-size: 18px;
+        margin-bottom: 15px;
+        padding: 0 20px;
+    }
+    .vacancy-search .form input::placeholder {
+        font-size: 18px;
+    }
+    .vacancy-search .form input::-webkit-input-placeholder {
+        font-size: 18px;
+    }
+    .vacancy-search .form input::-moz-placeholder {
+        font-size:18px;
+    }
+    .vacancy-search .form input:-moz-placeholder {
+        font-size: 18px;
+    }
+    .vacancy-search .form input:-ms-input-placeholder {
+        font-size: 18px;
+    }
+    .vacancy.accordion .data .link {
+        font-size: 18px;
+        padding: 11px 17px 14px; 
+    }
+
+
+/* CAREER END */
+
+
+
+
+
+
+/* PARTNERS START */
+
+
+
+
+
+
+/* PARTNERS END */
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print,
+(max-width: 570px) {
+    .team_items {
+        margin-left: 0px;
+        margin-bottom: -30px;
+    }
+    .team_items > * {
+        margin-left: 0px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+

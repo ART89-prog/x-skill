@@ -1,0 +1,218 @@
+@media print,
+(max-width: 1023px) {
+
+/* ABOUT START */
+    .title_first:before {
+        width: 33px;
+        height: 33px;
+        top: 0px;
+        left: -4px;
+    }
+    .mt84 {
+        margin-top: 55px;
+    }
+    .block {
+        margin-top: 55px;
+    }
+    .about .block_head .title {
+        font-size: 30px;
+    }
+    .about_info .desc p, 
+    .about_info ul li {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .about_info ul li::before {
+        width: 10px;
+        height: 10px;
+        top: 14px;
+    }
+    .about_info ul li {
+        padding-left: 20px;
+    }
+    .case .link {
+        font-size: 18px;
+        padding: 11px 17px 14px;
+    }
+    .case_item-info {
+        padding: 15px 10px;
+    }
+
+    .case_item-list::before {
+        width: calc(100% + 20px);
+        left: -10px;
+        bottom: 0;
+    }
+    .case_item-list::after {
+        width: calc(100% + 20px);
+        left: -10px;
+        bottom: 0;
+    }
+    .case_item-name {
+        font-size: 20px;
+    }
+    .case_item-category {
+        font-size: 16px;
+        line-height: 149%;
+        margin-bottom: 7px;
+    }
+    .case_item-list li {
+        font-size: 16px;
+    }
+    .director .data {
+        flex-direction: column-reverse;
+    }
+    .director .director_info {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .director .image {
+        text-align: center;
+    }
+    .director .image .bg {
+        left: 50%;
+        width: 422px;
+        transform: translateX(-50%);
+    }
+    .director .text_block p {
+        font-size: 18px;
+    }
+    .reason_wrap {
+        padding: 30px;
+    } 
+    .reason ul li {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .team .block_head .desc {
+        font-size: 20px;
+        line-height: 150%;
+    }
+    .team_items {
+        margin-left: -30px;
+        margin-bottom: -30px;
+    }
+    .team_items > * {
+        margin-left: 30px;
+        margin-bottom: 30px;
+        width: calc(100%/2 - 30px);
+    }
+    .registry_img img {
+        height: auto;
+        width: 220px;
+    }
+    .registry_wrap {
+        padding: 35px 0;
+    }
+    .registry ul li {
+        font-size: 19px;
+    }
+
+
+/* ABOUT END */
+
+
+/* CAREER START */
+
+    .career .block_head .title {
+        font-size: 30px;
+    }
+    .career_info .desc p {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .career_info .data {
+        flex-direction: column;
+        align-items: center;
+    }
+    .career_info .career_info-box {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .benefits_items {
+        margin-left: -20px;
+        margin-top: 80px;
+        margin-bottom: -80px;
+    }
+    .benefits_items > * {
+        width: calc(100%/2 - 20px);
+        margin-left: 20px;
+        margin-bottom: 80px;
+    }
+    .benefits_item {
+        padding: 60px 40px 40px;
+    }
+    .vacancy .accordion_item .head .title {
+        font-size: 20px;
+    }
+    .vacancy.accordion .data p {
+        margin-bottom: 20px;
+        font-size: 19px;
+        line-height: 150%;
+    }
+    .vacancy-search .data {
+        flex-direction: column;
+    }
+    .vacancy-search_info {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .vacancy-search form {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .vacancy-search ul li {
+        font-size: 20px;
+        line-height: 140%;
+        padding-left: 50px;
+        margin-bottom: 20px;
+    }
+    .vacancy-search ul li .icon {
+        top: 0;
+        left: 0;
+        display: block;
+        width:32px;
+        height: 32px;
+    }
+    .vacancy-search .form input {
+        height: 65px;
+        font-size: 20px;
+    }
+    .vacancy-search .form input::placeholder {
+        font-size: 20px;
+    }
+    .vacancy-search .form input::-webkit-input-placeholder {
+        font-size: 20px;
+    }
+    .vacancy-search .form input::-moz-placeholder {
+        font-size: 20px;
+    }
+    .vacancy-search .form input:-moz-placeholder {
+        font-size: 20px;
+    }
+    .vacancy-search .form input:-ms-input-placeholder {
+        font-size: 20px;
+    }
+
+
+/* CAREER END */
+
+
+
+/* PARTNERS START */
+
+
+
+
+
+
+/* PARTNERS END */
+
+
+
+
+
+
+
+
+}

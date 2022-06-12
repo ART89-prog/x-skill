@@ -1,0 +1,121 @@
+@media print,
+(max-width: 1499px) {
+
+/* ABOUT START */
+    .block {
+        margin-top: 100px;
+    }
+    .about_info .video_link {
+        width: 600px;
+        height: 402px;
+    }
+    .about_info .block_head {
+        width: calc(100% - 630px);
+    }
+    .about_info .desc p,
+    .about_info ul li {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .director .image {
+        position: relative;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .director .image img {
+        width: 535px;
+    }
+    .director .director_info {
+        margin-left: 60px;
+    }
+    .director .image .bg {
+        top: -131px;
+        left: 0px;
+        width: 591px;
+        height: 767px;
+    }
+    .director_info {
+        width: calc(100% - 595px);
+    }
+    .director .text_block p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .case .block_head .desc {
+        font-size: 20px;
+    }
+    .reason ul li {
+        font-size: 29px;
+    }
+
+/* ABOUT END */
+
+
+/* CAREER START */
+
+    .career_info .image {
+        width: 500px;
+        margin-right: 0px;
+        margin-top: 0;
+    }
+    .career_info .career_info-box {
+        width: calc(100% - 570px);
+    }
+    .career_info .image .bg {
+        top: -119px;
+        left: -18px;
+        width: 518px;
+        height: 705px;
+    }
+    .career_info .desc p {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .vacancy-search form {
+        width: 550px;
+        margin-left: 40px;
+    }
+    .vacancy-search_info {
+        width: calc(100% - 590px);
+    }
+    .benefits .block_head .desc,
+    .vacancy .block_head .desc {
+        font-size: 20px;
+    }
+
+
+/* CAREER END */
+
+
+
+
+/* PARTNERS START */
+
+    .partners-block_information {
+        flex-wrap: wrap;
+        margin-left: -76px;
+        margin-bottom: -30px;
+    }
+    .partners-block_information > * {
+        width: calc(100%/3 - 76px);
+        margin-left: 76px;
+        margin-bottom: 30px;
+    }
+    .partners_info .image .bg {
+        width: 797px;
+        height: 569px;
+    }
+    .partners_info .image {
+        margin-right: 0;
+        margin-top: 0;            
+    }
+
+
+
+
+
+/* PARTNERS END */
+
+
+
+}

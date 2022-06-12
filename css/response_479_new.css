@@ -1,0 +1,179 @@
+@media print,
+(max-width: 479px) {
+
+/* ABOUT START */
+    .mt84 {
+        margin-top: 35px;
+    }
+    .about_info .desc p, 
+    .about_info ul li {
+        font-size: 16px;
+    }
+    .block {
+        margin-top: 45px;
+    }
+    .case_items {
+        margin-left: 0px;
+        margin-bottom: -20px;
+    }
+    .case_items > * {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .author_name {
+        font-size: 17px;
+        line-height: 140%;
+    }
+    .author_post {
+        font-size: 15px;
+        line-height: 135%;
+    }
+    .author_signature {
+        width: 145px;
+        height: 96px;
+    }
+    .director .image img {
+        width: 320px;
+    }
+    .director .image .bg {
+        width: 330px;
+        top: -180px;
+    }
+    .reason_wrap {
+        padding: 20px;
+    }
+    .reason ul li .icon {
+        top: 2px;
+        left: 0;
+        width: 24px;
+        height: 24px;
+    }
+    .reason .block_head {
+        margin-bottom: 20px;
+    }
+    .reason ul li {
+        font-size: 18px;
+        margin-bottom: 14px;
+        padding-left: 40px;
+    }
+    .team_item-photo {
+        width: 100%;
+        height: 216px;
+        margin-bottom: 11px;
+    }
+    .team_item-name {
+        font-size: 20px;
+        line-height: 139%;
+        margin-bottom: 7px;
+    }
+    .team_item-post {
+        font-size: 17px;
+    }
+    .team_item-photo img {
+        border-radius: 10px;
+    }
+    .registry ul li .icon {
+        width: 24px;
+        height: 24px;
+        top: 7px;
+    }
+    .registry ul li {
+        padding-left: 40px;
+    }
+    .about_info .video_link .icon {
+        width: 45px;
+        height: 45px;
+    }
+    .about_info .video_link .icon svg {
+        width: 16px;
+        height: 20px;
+    }
+    .about_info .video_link::before {
+        width: 121px;
+        height: 121px;
+        right: -10px;
+        bottom: -10px;
+        border-radius: 10px;
+    }
+    .about_info .video_link::after {
+        position: absolute;
+        width: 78px;
+        height: 78px;
+        left: -10px;
+        top: -10px;
+        border-radius: 10px;
+    }
+    .about_info .video_link img {
+        border-radius: 10px;
+    }
+
+/* ABOUT END */
+
+
+
+
+/* CAREER START */
+
+    .career_info .image {
+        width: 100%;
+    }
+    .career_info .image .bg {
+        top: -177px;
+        left: 5px;
+        width: 344px;
+        height: 705px;
+    }
+    .benefits_item-name {
+        font-size: 18px;
+    }
+    .benefits_item-text {
+        font-size: 16px;
+        line-height: 147%;
+    }
+    .benefits_item:before {
+        font-size: 25px;
+        line-height: 40px;
+        top: -20px;
+        left: 15px;
+        width: 40px;
+        height: 40px;
+    }
+    .benefits_item {
+        padding: 30px 15px 20px;
+    }
+    .vacancy.accordion .data p {
+        margin-bottom: 14px;
+        font-size: 18px;
+        line-height: 137%;
+    }
+    .vacancy.accordion .data .link {
+        width: 100%;
+    }
+    .vacancy-search .block_head .title br {
+        display: none;
+    }
+
+
+
+
+/* CAREER END */
+
+
+
+
+
+
+/* PARTNERS START */
+
+
+
+
+
+
+/* PARTNERS END */
+
+
+
+
+}
