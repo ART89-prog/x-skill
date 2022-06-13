@@ -1,6 +1,11 @@
 @media print,
 (max-width: 767px) {
 
+    :root
+    {
+        --font_size2: 16px;
+    }
+
 /* ABOUT START */
     .breadcrumbs a, 
     .breadcrumbs .sep, 
@@ -337,9 +342,6 @@
         display: block;
         width: 24px;
         height: 24px;
-    }
-    .courses .order .block_head .desc {
-        font-size: 18px;
     }
     .courses .order .image {
         width: 400px;

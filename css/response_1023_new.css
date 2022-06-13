@@ -14,9 +14,9 @@
     .block {
         margin-top: 55px;
     }
-    .about .block_head .title {
+    /* .about .block_head .title {
         font-size: 30px;
-    }
+    } */
     .about_info .desc p, 
     .about_info ul li {
         font-size: 18px;
@@ -114,9 +114,9 @@
 
 /* CAREER START */
 
-    .career .block_head .title {
+    /* .career .block_head .title {
         font-size: 30px;
-    }
+    } */
     .career_info .desc p {
         font-size: 18px;
         margin-bottom: 10px;
@@ -229,9 +229,9 @@
 
 /* CONTACTS START */
 
-    .contacts .block_head .title {
+    /* .contacts .block_head .title {
         font-size: 30px;
-    }
+    } */
     .contacts_info .data {
         flex-direction: column;
     }
@@ -348,7 +348,6 @@
         font-size: 20px;
     }
     .post .reason .desc {
-        font-size: 20px;
         margin-bottom: 21px;
     }
 
@@ -399,9 +398,7 @@
     .courses .order {
         margin-bottom: 70px;
     }
-    .courses .order .block_head .desc {
-        font-size: 20px;
-    }
+
 
 
 /* COURSES END */

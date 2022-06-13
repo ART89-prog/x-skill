@@ -11,18 +11,7 @@
 (max-width: 1279px) {
 
 /* ABOUT START */
-    .about .block_head .title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 140%;
-        margin-bottom: 0px;
-    }
-    .title_first:before {
-        width: 56px;
-        height: 56px;
-        top: -16px;
-        left: -18px;
-    }
+
     .breadcrumbs a,
     .breadcrumbs .sep,
     .breadcrumbs .current {
@@ -227,12 +216,6 @@
 
 /* CAREER START */
 
-    .career .block_head .title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 140%;
-        margin-bottom: 0px;
-    }
     .benefits_item {
         padding: 85px 40px 40px;
     }
@@ -310,12 +293,7 @@
 
 /* CONTACTS START */
 
-    .contacts .block_head .title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 140%;
-        margin-bottom: 0px;
-    }
+
     .contacts_box-information {
         flex-direction: column;
         padding-bottom: 30px;

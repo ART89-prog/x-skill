@@ -1,3 +1,8 @@
+
+:root {
+    --font_size2: 18px;
+}
+
 /* ABOUT START */
 
 .about .cont {
@@ -8,12 +13,6 @@
 }
 .block {
     margin-top: 130px;
-}
-.about .block_head .title {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 160%;
-    margin-bottom: 18px;
 }
 .about header {
     background: linear-gradient(285.66deg, #DCF5F9 2.81%, rgba(220, 245, 249, 0) 111.19%);
@@ -69,6 +68,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 30px;
 }
 .about_info .block_head {
     margin-bottom: 40px;
@@ -78,16 +78,12 @@
     width: 100%;
 }
 .about_info .desc p {
-    font-family: var(--font_family);
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 180%;
-    letter-spacing: 0.02em;
-    color: #696984;
     margin-bottom: 23px;
+    font-size: var(--font_size2);
 }
 .about_info .desc_bottom p {
-    margin-bottom: 43px;
+    margin-bottom: 23px;
+    font-size: var(--font_size2);
 }
 .about_info .desc_bottom p:last-child {
     margin-bottom: 0px;
@@ -95,27 +91,27 @@
 .about_info ul {
     list-style: none;
 }
-.about_info ul li {
+ul li {
     position: relative;
     padding-left: 41px;
     font-family: var(--font_family);
     font-weight: 500;
-    font-size: 24px;
-    line-height: 180%;
+    font-size: var(--font_size2);
+    line-height: 160%;
     letter-spacing: 0.02em;
     color: #696984;
     margin-bottom: 23px;
 }
-.about_info ul li:last-child {
+ul li:last-child {
     margin-bottom: 0;
 }
 .about_info ul li::before {
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     background: #BCE01A;
     content: "";
-    top: 15px;
+    top: 11px;
     left: 0;
     border-radius: 50%;
 }
@@ -199,11 +195,6 @@
     justify-content: flex-start;
     align-content: flex-start;
 }
-.case .block_head .desc {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 180%;   
-}
 .case_items {
     display: flex;
     margin-left: -53px;
@@ -231,7 +222,7 @@
 .case_item-name {
     font-family: var(--font_family);
     font-weight: 700;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 34px;
     color: var(--text_color);
     margin-bottom: 9px;
@@ -239,7 +230,7 @@
 .case_item-category {
     font-family: var(--font_family);
     font-weight: 400;
-    font-size: 20px;
+    font-size: var(--font_size2);
     line-height: 180%;
     color: #696984;
     margin-bottom: 23px;
@@ -274,7 +265,7 @@
     padding-left: 28px;
     font-family: var(--font_family);
     font-weight: 400;
-    font-size: 22px;
+    font-size: var(--font_size2);
     line-height: 180%;
     color: #696984;
     margin-bottom: 9px;
@@ -311,13 +302,8 @@
     background: #bce01a;
     width: 100%;
 }
-
-
-
 .director .image {
     position: relative;
-    margin-left: 90px;
-    margin-top: 115px;
 }
 .director .image .bg {
     position: absolute;
@@ -341,13 +327,13 @@
     justify-content: flex-start;
     margin-bottom: 13px
 }
-.director .text_block p {
+.text_block p {
     font-family: var(--font_family);
     font-weight: 400;
-    font-size: 24px;
+    font-size: var(--font_size2);
     line-height: 180%;
     color: #696984;  
-    margin-bottom: 42px; 
+    margin-bottom: 23px; 
 }
 .director .text_block p:last-child {
     margin-bottom: 0;
@@ -364,7 +350,7 @@
 .author_name {
     font-family: var(--font_family);
     font-weight: 700;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 180%;
     color: #505050;
 }
@@ -372,7 +358,7 @@
     font-family: var(--font_family);
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 180%;
     color: #696984;    
 }
@@ -391,18 +377,15 @@
     align-items: center;
     margin-bottom: 66px;
 }
-.reason .block_head .title {
-    margin-bottom: 0;
-}
 .reason ul {
     list-style: none;
 }
 .reason ul li {
     position: relative;
-    padding-left: 77px;
+    padding-left: 61px;
     font-family: var(--font_family);
     font-weight: 500;
-    font-size: 34px;
+    font-size: 24px;
     line-height: 116.5%;
     letter-spacing: 0.02em;
     color: var(--text_color);
@@ -418,11 +401,11 @@
 .reason ul li .icon {
     color: #bce01a;
     position: absolute;
-    top: 0;
+    top: -4px;
     left: 0;
     display: block;
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
 }
 
 
@@ -432,14 +415,7 @@
     align-content: flex-start;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-bottom: 83px;
-}
-.team .block_head .desc {
-    font-family: var(--font_family);
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 180%;
-    color: #696984; 
+    margin-bottom: 57px;
 }
 .team_items {
     margin-left: -69px;
@@ -470,19 +446,19 @@
 .team_item-name {
     font-family: var(--font_family);
     font-weight: 700;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 180%;
     color: #252641;
-    margin-bottom: 13px;
+    margin-bottom: 8px;
 }
 .team_item-post {
     font-family: var(--font_family);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 133%;
     letter-spacing: 0.02em;
     color: #696984;
-    margin-bottom: 9px;
+    margin-bottom: 13px;
 }
 .team_item-email {
     margin-bottom: 11px;
@@ -493,7 +469,7 @@
     text-decoration: none;
     font-family: var(--font_family);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 133%;
     letter-spacing: 0.02em;
     color: #16A3B9;
@@ -513,14 +489,6 @@
 }
 .registry .data {
     margin-left: 68px;
-}
-.registry .block_head .title {
-    font-family: var(--font_family);
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 128.5%;
-    color: var(--text_color);
-    margin-bottom: 33px;  
 }
 .registry ul {
     list-style: none;
@@ -556,12 +524,6 @@
 
 /* CAREER START */
 
-.career .block_head .title {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 130%;
-    margin-bottom: 18px;
-}
 .career .cont {
     max-width: 1702px;
     justify-content: space-between;
@@ -578,15 +540,10 @@
 .career_info .desc {
     max-width: 716px;
     width: 100%;
+    font-size: var(--font_size2);
 }
 .career_info .desc p {
-    font-family: var(--font_family);
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 180%;
-    letter-spacing: 0.02em;
-    color: #696984;
-    margin-bottom: 42px;
+    margin-bottom: 22px;
 }
 .career_info .desc p:last-child {
     margin-bottom: 0;
@@ -635,9 +592,6 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
-.benefits .block_head .desc {
-    font-size: 24px;
-}
 .benefits_items {
     display: flex;
     margin-left: -50px;
@@ -660,14 +614,14 @@
 }
 .benefits_item-name {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 34px;
     color: #4B4B4B;
     margin-bottom: 26px;
 }
 .benefits_item-text {
     font-weight: 400;
-    font-size: 20px;
+    font-size: var(--font_size2);
     line-height: 180%;
     color: #696984;   
 }
@@ -696,15 +650,9 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
-.vacancy .block_head .desc {
-    font-size: 24px;
-}
-.vacancy .block_head .desc {
-    font-size: 24px;
-}
 .vacancy.accordion .data p {
     margin-bottom: 42px;
-    font-family: 'Ubuntu';
+    font-family: var(--font_family);
     font-weight: 400;
     font-size: 24px;
     line-height: 180%;
@@ -729,7 +677,7 @@
     width: 365px;
 }
 .vacancy .accordion_item .head .title {
-    font-family: 'Ubuntu';
+    font-family: var(--font_family);
     font-weight: 500;
     font-size: 26px;
     line-height: 160%;
@@ -749,12 +697,6 @@
 }
 .vacancy-search ul li {
     position: relative;
-    font-family: 'Ubuntu';
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 180%;
-    letter-spacing: 0.02em;
-    color: #4B4B4B;
     padding-left: 61px;
     margin-bottom: 26px;
 }
@@ -764,7 +706,7 @@
 .vacancy-search ul li .icon {
     color: #bce01a;
     position: absolute;
-    top: 0;
+    top: -4px;
     left: 0;
     display: block;
     width: 40px;
@@ -782,49 +724,49 @@
     border: 1px solid #8CC3CB;
     border-radius: 80px;
     padding: 0 35px;
-    font-family: 'Ubuntu';
+    font-family: var(--font_family);
     font-weight: 400;
-    font-size: 22px;
+    font-size: var(--font_size2);
     line-height: 25px;
     letter-spacing: 0.02em;
     color: #7A7A7A;    
 }
 .vacancy-search .form input::placeholder {
-    font-family: 'Ubuntu';
+    font-family: var(--font_family);
     font-weight: 400;
-    font-size: 22px;
+    font-size: var(--font_size2);
     line-height: 25px;
     letter-spacing: 0.02em;
     color: #7A7A7A;
 }
 .vacancy-search .form input::-webkit-input-placeholder {
-    font-family: 'Ubuntu';
+    font-family: var(--font_family);
     font-weight: 400;
-    font-size: 22px;
+    font-size: var(--font_size2);
     line-height: 25px;
     letter-spacing: 0.02em;
     color: #7A7A7A;
 }
 .vacancy-search .form input::-moz-placeholder {
-    font-family: 'Ubuntu';
+    font-family: var(--font_family);
     font-weight: 400;
-    font-size: 22px;
+    font-size: var(--font_size2);
     line-height: 25px;
     letter-spacing: 0.02em;
     color: #7A7A7A;
 }
 .vacancy-search .form input:-moz-placeholder {
-    font-family: 'Ubuntu';
+    font-family: var(--font_family);
     font-weight: 400;
-    font-size: 22px;
+    font-size: var(--font_size2);
     line-height: 25px;
     letter-spacing: 0.02em;
     color: #7A7A7A;
 }
 .vacancy-search .form input:-ms-input-placeholder {
-    font-family: 'Ubuntu';
+    font-family: var(--font_family);
     font-weight: 400;
-    font-size: 22px;
+    font-size: var(--font_size2);
     line-height: 25px;
     letter-spacing: 0.02em;
     color: #7A7A7A;
@@ -836,12 +778,6 @@
 
 /* PARTNERS START */
 
-.partners .block_head .title {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 130%;
-    margin-bottom: 18px;
-}
 .partners .block_head {
     margin-bottom: 29px;
 }
@@ -868,11 +804,11 @@
 .partners_info .desc p {
     font-family: var(--font_family);
     font-weight: 400;
-    font-size: 24px;
+    font-size: var(--font_size2);
     line-height: 180%;
     letter-spacing: 0.02em;
     color: #696984;
-    margin-bottom: 42px;
+    margin-bottom: 32px;
 }
 .partners_info .desc p:last-child {
     margin-bottom: 0;
@@ -934,26 +870,26 @@
     margin-right: 76px;
 }
 .partners-block_info .name {
-    font-family: 'Ubuntu';
+    font-family: var(--font_family);
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 180%;
     color: #585858;
 }
 .partners-block_info .text {
-    font-family: 'Ubuntu';
+    font-family: var(--font_family);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 180%;
     color: #585858;
     white-space: nowrap;    
 }
 .partners-block_info a {
     text-decoration: none;
-    font-family: 'Ubuntu';
+    font-family: var(--font_family);
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 180%;
     color: #16A3B9;
     white-space: nowrap;
@@ -990,15 +926,7 @@
 
 /* CONTACTS START */
 
-.contacts .block_head .desc {
-    font-size: 24px;
-}
-.contacts .block_head .title {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 130%;
-    margin-bottom: 18px;
-}
+
 .contacts .block_head {
     margin-bottom: 57px;
 }
@@ -1018,10 +946,10 @@
 }
 .contacts_box-title {
     font-weight: 500;
-    font-size: 37px;
+    font-size: 28px;
     line-height: 160%;
     color: #4B4B4B; 
-    margin-bottom: 28px; 
+    margin-bottom: 18px; 
 }
 .contacts_box-info {
     margin-right: 89px;      
@@ -1034,20 +962,20 @@
 .contacts_box-info span {
     display: block;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 180%;
     color: #696984;
 }
 .contacts_info .name {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 180%;
     color: #585858;
 }
 .contacts_box-info a {
     text-decoration: none;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 180%;
     color: #1494A8; 
     display: block; 
@@ -1056,7 +984,7 @@
 .contacts_info .text {
     text-decoration: none;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 180%;
     color: #585858; 
     white-space: nowrap;       
@@ -1084,51 +1012,51 @@
     height: 256px;
     width: 100%;
     padding: 33px 32px;
-    font-family: 'Ubuntu';
+    font-family: var(--font_family);
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 25px;
     letter-spacing: 0.02em;
     color: #7A7A7A;
     margin-bottom: 45px;
 }
 
-.contacts_info .vacancy-search .form textarea::placeholder {
-    font-family: 'Ubuntu';
+.form textarea::placeholder {
+    font-family: var(--font_family);
     font-weight: 400;
-    font-size: 22px;
+    font-size: var(--font_size2);
     line-height: 25px;
     letter-spacing: 0.02em;
     color: #7A7A7A;
 }
-.contacts_info .vacancy-search .form textarea::-webkit-input-placeholder {
-    font-family: 'Ubuntu';
+.form textarea::-webkit-input-placeholder {
+    font-family: var(--font_family);
     font-weight: 400;
-    font-size: 22px;
+    font-size: var(--font_size2);
     line-height: 25px;
     letter-spacing: 0.02em;
     color: #7A7A7A;
 }
-.contacts_info .vacancy-search .form textarea::-moz-placeholder {
-    font-family: 'Ubuntu';
+.form textarea::-moz-placeholder {
+    font-family: var(--font_family);
     font-weight: 400;
-    font-size: 22px;
+    font-size: var(--font_size2);
     line-height: 25px;
     letter-spacing: 0.02em;
     color: #7A7A7A;
 }
-.contacts_info .vacancy-search .form textarea:-moz-placeholder {
-    font-family: 'Ubuntu';
+.form textarea:-moz-placeholder {
+    font-family: var(--font_family);
     font-weight: 400;
-    font-size: 22px;
+    font-size: var(--font_size2);
     line-height: 25px;
     letter-spacing: 0.02em;
     color: #7A7A7A;
 }
-.contacts_info .vacancy-search .form textarea:-ms-input-placeholder {
-    font-family: 'Ubuntu';
+.form textarea:-ms-input-placeholder {
+    font-family: var(--font_family);
     font-weight: 400;
-    font-size: 22px;
+    font-size: var(--font_size2);
     line-height: 25px;
     letter-spacing: 0.02em;
     color: #7A7A7A;
@@ -1139,27 +1067,32 @@
 
 /* BLOG START */
 
-    .interesting-articles .row .list {
-        width: 100%;
-        margin-left: 0;
-    }
-    .interesting-articles .article .date {
-        position: relative;
-        right: 0;
-        bottom: 0;
-        display: inline-block;
-        margin-top: 29px;
-    }
-    .blog .articles .block_head {
-        margin-bottom: 54px;
-    }
+.interesting-articles .row .list {
+    width: 100%;
+    margin-left: 0;
+}
+.interesting-articles .article .date {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    margin-top: 29px;
+}
+.blog .articles .block_head {
+    margin-bottom: 54px;
+}
 
 /* BLOG END */
 
 
 /* POST START */
 
-
+.post .cont {
+    max-width: 1702px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
 .post .mt84 {
     margin-top: 42px;
 }
@@ -1189,7 +1122,7 @@
     content: '';
     z-index: 0;
     border-radius: 20px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.38) 2.06%, rgba(0, 0, 0, 0) 28.65%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.78) 2.06%, rgba(0, 0, 0, 0) 250.65%);
 }
 .post_info .head .image img {
     border-radius: 20px;
@@ -1214,9 +1147,9 @@
     padding: 7px 40px;
     background: #BCE01A;
     border-radius: 80px;
-    font-family: 'Ubuntu';
+    font-family: var(--font_family);
     font-weight: 500;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 180%;
     letter-spacing: 0.02em;
     color: #4B5812;
@@ -1226,18 +1159,18 @@
     position: absolute;
     bottom: 40px;
     right: 30px;
-    font-family: 'Ubuntu';
+    font-family: var(--font_family);
     font-weight: 700;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 180%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     z-index: 1;
 }
 .post_info .head .author-photo {
-    font-family: 'Ubuntu';
+    font-family: var(--font_family);
     font-weight: 400;
-    font-size: 24px;
+    font-size: var(--font_size2);
     line-height: 180%;
     letter-spacing: 0.02em;
     color: #696984;
@@ -1246,9 +1179,9 @@
     text-align: right;
 }
 .post_info .text_block p {
-    font-family: 'Ubuntu';
+    font-family: var(--font_family);
     font-weight: 400;
-    font-size: 24px;
+    font-size: var(--font_size2);
     line-height: 180%;
     letter-spacing: 0.02em;
     color: #696984;
@@ -1307,22 +1240,22 @@
     height: 65px;
 }
 .post_info .video_text {
-    font-family: 'Ubuntu';
+    font-family: var(--font_family);
     font-weight: 400;
-    font-size: 24px;
+    font-size: var(--font_size2);
     line-height: 180%;
     letter-spacing: 0.02em;
     color: #696984;
-    margin-top: 37px;
+    margin-top: 15px;
     margin-bottom: 21px;
 }
 .post_info .text_block h2 {
     font-weight: 700;
-    font-size: 37px;
+    font-size: 28px;
     line-height: 180%;
     letter-spacing: 0.02em;
     color: #252641;
-    margin-bottom: 21px;
+    margin-bottom: 15px;
 }
 .post_info .share {
     display: flex;
@@ -1330,7 +1263,7 @@
 }
 .post_info .share .text {
     font-weight: 500;
-    font-size: 24px;
+    font-size: var(--font_size2);
     line-height: 180%;
     letter-spacing: 0.02em;
     color: #434343;
@@ -1355,7 +1288,7 @@
 }
 .post .reason .desc {
     font-weight: 400;
-    font-size: 24px;
+    font-size: var(--font_size2);
     line-height: 180%;
     letter-spacing: 0.02em;
     color: #696984;
@@ -1374,13 +1307,13 @@
     height: 40px;
 }
 .post .reason ul li {
-    font-family: 'Ubuntu';
+    font-family: var(--font_family);
     font-weight: 500;
-    font-size: 22px;
+    font-size: var(--font_size2);
     line-height: 180%;
     letter-spacing: 0.02em;
     color: #4B4B4B;
-    padding-left: 61px;
+    padding-left: 57px;
     margin-bottom: 0;
     margin-right: 53px;
 }
@@ -1562,7 +1495,7 @@
 }
 .order ul li {
     position: relative;
-    font-family: 'Ubuntu';
+    font-family: var(--font_family);
     font-weight: 500;
     font-size: 22px;
     line-height: 180%;
