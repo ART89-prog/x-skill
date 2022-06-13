@@ -71,7 +71,7 @@
         font-size: 20px;
         margin-bottom: 15px;
     }
-    .vacancy-search {
+    .vacancy-search .form {
         width: 550px;
         margin-left: 40px;
     }
@@ -187,16 +187,18 @@
 
 /* POST START */
 
-.post .reason ul li {
-    margin-right: 28px;
-}
+    .post .reason ul li {
+        margin-right: 28px;
+    }
 
 
 /* POST END */
 
 
+/* COURSES START */
 
 
+/* COURSES END */
 
 
 

@@ -257,69 +257,100 @@
 
 /* POST START */
 
-.post_info .head .image .title {
-    top: 20px;
-    left: 20px;
-    font-size: 22px;
-    line-height: 129%;
-    max-width: 600px;
-}
-.post_info .head .image .date {
-    bottom: 15px;
-    left: 15px;
-    padding: 1px 13px;
-    font-size: 14px;
-}
-.post_info .head .image .author {
-    bottom: 14px;
-    right: 14px;
-    font-size: 14px;
-}
-.post_info .text_block p {
-    font-size: 18px;
-    margin-bottom: 25px;
-}
-.post_info .head .author-photo {
-    font-size: 15px;
-    margin-top: 8px;
-    margin-bottom: 12px;
-}
-.post .slider img {
-    border-radius: 15px;
-    height: 240px;
-}
-.post .slider {
-    margin-bottom: 25px;
-}
-.post .reason ul li {
-    margin-right: 0;
-    font-size: 18px; 
-    padding-left: 50px;   
-}
-.post .reason .block_head {
-    margin-bottom: 19px;
-}
-.post .reason ul li .icon {
-    width: 32px;
-    height: 32px;
-}
-.post .reason .link {
-    padding: 15px 15px 18px;
-}
-
-
-
-
-
-
+    .post_info .head .image .title {
+        top: 20px;
+        left: 20px;
+        font-size: 22px;
+        line-height: 129%;
+        max-width: 600px;
+    }
+    .post_info .head .image .date {
+        bottom: 15px;
+        left: 15px;
+        padding: 1px 13px;
+        font-size: 14px;
+    }
+    .post_info .head .image .author {
+        bottom: 14px;
+        right: 14px;
+        font-size: 14px;
+    }
+    .post_info .text_block p {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    .post_info .head .author-photo {
+        font-size: 15px;
+        margin-top: 8px;
+        margin-bottom: 12px;
+    }
+    .post .slider img {
+        border-radius: 15px;
+        height: 240px;
+    }
+    .post .slider {
+        margin-bottom: 25px;
+    }
+    .post .reason ul li {
+        margin-right: 0;
+        font-size: 18px; 
+        padding-left: 50px;   
+    }
+    .post .reason .block_head {
+        margin-bottom: 19px;
+    }
+    .post .reason ul li .icon {
+        width: 32px;
+        height: 32px;
+    }
+    .post .reason .link {
+        padding: 15px 15px 18px;
+    }
 
 /* POST END */
 
 
+/* COURSES START */
 
+    .courses .order ul li {
+        font-size: 16px;
+        line-height: 140%;
+        padding-left: 40px;
+        margin-bottom: 20px;
+    }
+    .courses .order ul li .icon {
+        top: 0px;
+        left: 0;
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+    .courses .order .block_head .desc {
+        font-size: 18px;
+    }
+    .courses .order .image {
+        width: 400px;
+    }
+    .order .image .bg {
+        top: -9px;
+        left: -4px;
+        width: 426px;
+        height: 439px;
+    }
+    .courses .order {
+        margin-bottom: 50px;
+    }
+    .courses .video-block .video_items {
+        margin-left: 0px;
+        margin-bottom: -20px;
+    }
+    .courses .video-block .video_items > * {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
 
-
-
+/* COURSES END */
 
 
 

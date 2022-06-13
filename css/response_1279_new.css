@@ -263,7 +263,7 @@
         margin-left: 20px;
         margin-bottom: 100px;
     }
-    .vacancy-search {
+    .vacancy-search .form {
         width: 460px;
         margin-left: 30px;
     }
@@ -383,79 +383,96 @@
 
 /* POST START */
 
-.post .reason ul {
-    flex-direction: column;
-    justify-content: flex-end;
-}
-.post .reason ul li {
-    margin-bottom: 15px;
-}
-.post .reason .link {
-    margin-bottom: 0;
-}
-.post_info .head .image .title {
-    top: 40px;
-    left: 40px;
-    font-size: 30px;
-    line-height: 130%;
-}
-.post_info .head .image .author {
-    bottom: 25px;
-    right: 25px;
-    font-size: 25px;
-}
-.post_info .head .image .date {
-    bottom: 26px;
-    left: 28px;
-    padding: 3px 32px;
-    font-size: 28px;
-}
-.post_info .head .author-photo {
-    font-size: 22px;
-    margin-top: 14px;
-    margin-bottom: 20px;
-}
-.post_info .text_block p {
-    font-size: 22px;
-    margin-bottom: 40px;
-}
-.slider {
-    margin-bottom: 40px;
-}
-.post_info .video_link .icon {
-    width: 130px;
-    height: 130px;
-}
-.post_info .video_link .icon svg {
-    width: 44px;
-    height: 48px;
-}
-.post_info .video_text {
-    font-size: 22px;
-    margin-top: 13px;
-}
-.post_info .text_block h2 {
-    font-size: 32px;
-    margin-bottom: 17px;
-}
-.post .reason .desc {
-    font-size: 22px;
-    margin-bottom: 27px;
-}
-
-
-
+    .post .reason ul {
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .post .reason ul li {
+        margin-bottom: 15px;
+    }
+    .post .reason .link {
+        margin-bottom: 0;
+    }
+    .post_info .head .image .title {
+        top: 40px;
+        left: 40px;
+        font-size: 30px;
+        line-height: 130%;
+    }
+    .post_info .head .image .author {
+        bottom: 25px;
+        right: 25px;
+        font-size: 25px;
+    }
+    .post_info .head .image .date {
+        bottom: 26px;
+        left: 28px;
+        padding: 3px 32px;
+        font-size: 28px;
+    }
+    .post_info .head .author-photo {
+        font-size: 22px;
+        margin-top: 14px;
+        margin-bottom: 20px;
+    }
+    .post_info .text_block p {
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+    .slider {
+        margin-bottom: 40px;
+    }
+    .post_info .video_link .icon {
+        width: 130px;
+        height: 130px;
+    }
+    .post_info .video_link .icon svg {
+        width: 44px;
+        height: 48px;
+    }
+    .post_info .video_text {
+        font-size: 22px;
+        margin-top: 13px;
+    }
+    .post_info .text_block h2 {
+        font-size: 32px;
+        margin-bottom: 17px;
+    }
+    .post .reason .desc {
+        font-size: 22px;
+        margin-bottom: 27px;
+    }
 
 /* POST END */
 
 
+/* COURSES START */
+
+    .courses .order ul li {
+        font-size: 24px;
+        padding-left: 50px;
+        margin-bottom: 30px;
+    }
+    .courses .order ul li .icon {
+        top: 2px;
+        left: 0;
+        width: 32px;
+        height: 32px;
+    }
+    .courses .order .image {
+        width: 450px;    
+    }
+    .courses .order .order_box {
+        width: calc(100% - 520px);
+    }
+    .order .image img {
+        width: 100%;
+    }
+    .courses .order {
+        margin-bottom: 80px;
+    }
+
+/* COURSES END */
 
 
-
-
-
-
-
-
-    
 }
