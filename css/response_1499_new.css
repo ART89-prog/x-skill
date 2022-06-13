@@ -177,6 +177,9 @@
         display: inline-block;
         margin-top: 25px;
     }
+    .post .articles .article .date {
+        left: 0;
+    }
 
 /* BLOG END */
 
@@ -184,6 +187,9 @@
 
 /* POST START */
 
+.post .reason ul li {
+    margin-right: 28px;
+}
 
 
 /* POST END */

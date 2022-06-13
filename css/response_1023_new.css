@@ -301,6 +301,60 @@
 
 /* POST START */
 
+.post_info .head .image .title {
+    top: 35px;
+    left: 35px;
+    font-size: 28px;
+    line-height: 140%;
+    max-width: 700px;
+}
+.post_info .head .image .date {
+    font-size: 22px;    
+}
+.post_info .head .image .author {
+    font-size: 22px;
+}
+.post_info .head .author-photo {
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+.post_info .text_block p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.post .slick-prev,
+.post .slick-next {
+    width: 70px;
+    height: 70px;
+}
+.post_info .video_link .icon {
+    width: 90px;
+    height: 90px;
+}
+.post_info .video_link .icon svg {
+    width: 28px;
+    height: 33px;
+}
+.post_info .video_text {
+    font-size: 18px;
+    margin-top: 7px;
+}
+.post_info .text_block h2 {
+    font-size: 28px;
+    margin-bottom: 7px;
+}
+.post_info .share .text {
+    font-size: 20px;
+}
+.post .reason .desc {
+    font-size: 20px;
+    margin-bottom: 21px;
+}
+
+
+
+
 
 
 /* POST END */

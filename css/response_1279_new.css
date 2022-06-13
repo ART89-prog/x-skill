@@ -1,4 +1,13 @@
 @media print,
+(max-width: 1400px) {
+
+    .interesting-articles .row .list {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media print,
 (max-width: 1279px) {
 
 /* ABOUT START */
@@ -373,6 +382,67 @@
 
 
 /* POST START */
+
+.post .reason ul {
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.post .reason ul li {
+    margin-bottom: 15px;
+}
+.post .reason .link {
+    margin-bottom: 0;
+}
+.post_info .head .image .title {
+    top: 40px;
+    left: 40px;
+    font-size: 30px;
+    line-height: 130%;
+}
+.post_info .head .image .author {
+    bottom: 25px;
+    right: 25px;
+    font-size: 25px;
+}
+.post_info .head .image .date {
+    bottom: 26px;
+    left: 28px;
+    padding: 3px 32px;
+    font-size: 28px;
+}
+.post_info .head .author-photo {
+    font-size: 22px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+.post_info .text_block p {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.slider {
+    margin-bottom: 40px;
+}
+.post_info .video_link .icon {
+    width: 130px;
+    height: 130px;
+}
+.post_info .video_link .icon svg {
+    width: 44px;
+    height: 48px;
+}
+.post_info .video_text {
+    font-size: 22px;
+    margin-top: 13px;
+}
+.post_info .text_block h2 {
+    font-size: 32px;
+    margin-bottom: 17px;
+}
+.post .reason .desc {
+    font-size: 22px;
+    margin-bottom: 27px;
+}
+
 
 
 
