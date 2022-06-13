@@ -161,17 +161,113 @@
 
 
 
-
-
-
 /* PARTNERS START */
 
-
-
-
+    .partners_info .image {
+        width: 310px;
+    }
+    .partners_info .image .bg {
+        width: 351px;
+        height: 262px;
+        left: 0px;
+        top: 0;
+    }
+    .partners-block .head .title {
+        font-size: 19px;
+    }
+    .partners-block .head {
+        padding: 15px;
+    }
+    .partners-block .data {
+        padding: 17px;
+    }
+    .partners-block_info .name {
+        font-size: 18px;
+    }
+    .partners-block_info .text {
+        font-size: 18px;
+    }
+    .partners-block_information {
+        margin-bottom: -10px;
+    }
+    .partners-block_information > * {
+        margin-bottom: 10px;
+    }
+    .partners-block .link {
+        font-size: 16px;
+        width: 100%;
+        padding: 15px 8px 20px;
+        margin-top: 20px;
+    }
+    .partners .vacancy-search .block_head .title {
+        font-size: 25px;
+    }
+    .partners-block .head {
+        border-left: 7px solid #bce01a;
+    }
+    .partners_info .vacancy-search ul li {
+        margin-bottom: 20px;
+    }
 
 
 /* PARTNERS END */
+
+
+
+/* CONTACTS START */
+
+    .contacts_info .name {
+        font-size: 18px;
+    }
+    .contacts_info .text {
+        font-size: 18px;
+    }
+    .contacts_box-info a {
+        font-size: 18px;
+    }
+    .contacts_box-info span {
+        font-size: 18px;
+    }
+    .contacts_box-information {
+        padding-bottom: 20px;
+    }
+    .contacts_box {
+        margin-bottom: 20px;
+    }
+    .contacts_info .vacancy-search textarea {
+        margin-bottom: 20px;
+    }
+
+
+/* CONTACTS END */
+
+
+/* BLOG START */
+
+    .interesting-articles .article .date {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        display: inline-block;
+        margin-top: 15px;
+    }
+    .blog .articles .block_head {
+        margin-bottom: 25px;
+    }
+
+/* BLOG END */
+
+
+/* POST START */
+
+
+
+/* POST END */
+
+
+
+
+
 
 
 

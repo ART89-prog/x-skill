@@ -108,7 +108,7 @@
         margin-bottom: 20px;
     }
     .vacancy-search ul li .icon {
-        top: 6px;
+        top: 0px;
         left: 0;
         display: block;
         width: 24px;
@@ -144,18 +144,125 @@
 /* CAREER END */
 
 
-
-
-
-
 /* PARTNERS START */
 
-
-
-
-
+    .partners_info .image {
+        width: 415px;
+    }
+    .partners_info .image .bg {
+        width: 402px;
+        height: 656px;
+        left: 0px;
+        top: -140px;
+    }
+    .partners-block_information {
+        margin-left: 0px;
+        margin-bottom: -20px;
+    }
+    .partners-block_information > * {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .partners-block .link {
+        font-size: 20px;
+        width: 380px;
+    }
+    .partners-block_item .head img {
+        display: none;
+    }
+    .partners-block .head {
+        padding: 20px;
+    }
+    .partners .vacancy-search .block_head .title {
+        font-size: 28px;
+    }
+    .partners .vacancy-search .block_head {
+        margin-bottom: 10px;
+    }
+    .partners-block_info {
+        margin-right: 0;
+    }
+    .partners_info .vacancy-search ul li {
+        margin-bottom: 23px;
+    }
 
 /* PARTNERS END */
+
+
+
+/* CONTACTS START */
+
+    .contacts_box-information{
+        flex-direction: column;
+    }
+    .contacts_box-info {
+        margin-right: 0px;
+    }
+    .contacts_box-title {
+        font-size: 25px;
+        margin-bottom: 8px;
+    }
+    .contacts_info .vacancy-search textarea {
+        padding: 20px;
+        font-size: 18px;
+    }
+    .contacts_info .name {
+        font-size: 20px;
+    }
+    .contacts_info .text {
+        font-size: 20px;
+    }
+    .contacts_box-info a {
+        font-size: 20px;
+    }
+    .contacts_box-info span {
+        font-size: 20px;
+    }
+    .contacts_box-information {
+        padding-bottom: 25px;
+    }
+    .contacts_box {
+        margin-bottom: 25px;
+    }
+    .contacts_info .vacancy-search textarea {
+        margin-bottom: 25px;
+    }
+    .contacts .block_head .desc {
+        margin-top: 0;
+    }
+
+/* CONTACTS END */
+
+
+
+/* BLOG START */
+
+    .interesting-articles .row .list {
+        width: 100%;
+        margin-left: 0;
+    }
+    .interesting-articles .article .date {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        display: inline-block;
+    }
+    .blog .articles .block_head {
+        margin-bottom: 30px;
+    }
+
+/* BLOG END */
+
+
+/* POST START */
+
+
+
+/* POST END */
+
+
+
 
 
 

@@ -254,7 +254,7 @@
         margin-left: 20px;
         margin-bottom: 100px;
     }
-    .vacancy-search form {
+    .vacancy-search {
         width: 460px;
         margin-left: 30px;
     }
@@ -273,19 +273,113 @@
         font-size: 20px;
         line-height: 150%;
     }
+    .vacancy-search ul li .icon {
+        top: 0;
+        left: 0;
+        display: block;
+        width:32px;
+        height: 32px;
+    }
 
 /* CAREER END */
 
 
 /* PARTNERS START */
 
-
-
-
-
-
+    .partners-block_info .name {
+        font-size: 20px;
+    }
+    .partners-block_info .text {
+        font-size: 20px;
+    }
+    .partners-block_info a {
+        font-size: 20px;
+    }
 
 /* PARTNERS END */
+
+
+/* CONTACTS START */
+
+    .contacts .block_head .title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 140%;
+        margin-bottom: 0px;
+    }
+    .contacts_box-information {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .contacts_box-info {
+        margin-right: 40px;
+    }
+    .contacts_info .vacancy-search {
+        width: 470px;
+        margin-left: 30px;
+    }
+    .contacts_wrap {
+        width: calc(100% - 500px);
+    }
+    .contacts_box-title {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .contacts_info .name {
+        font-size: 22px;
+    }
+    .contacts_info .text {
+        font-size: 22px;
+    }
+    .contacts_box-info a {
+        font-size: 22px;
+    }
+    .contacts_box-info span {
+        font-size: 22px;
+    }
+    .contacts_info .social img {
+        width: 50px;
+    } 
+    .contacts_info .social a {
+        margin-right: 20px;
+    }
+    .contacts .block_head .desc {
+        font-size: 22px;
+    }
+
+
+/* CONTACTS END */
+
+
+
+/* BLOG START */
+
+    .interesting-articles .row .list {
+        width: 100%;
+        margin-left: 0;
+    }
+    .interesting-articles .article .date {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        display: inline-block;
+        margin-top: 22px;
+    }
+    .blog .articles .block_head {
+        margin-bottom: 40px;
+    }
+
+/* BLOG END */
+
+
+/* POST START */
+
+
+
+/* POST END */
+
+
+
 
 
 

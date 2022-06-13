@@ -770,7 +770,7 @@
     width: 40px;
     height: 40px;
 }
-.vacancy-search form {
+.vacancy-search {
     width: 834px;
     margin-left: 50px;
 }
@@ -926,7 +926,10 @@
 .partners-block .data {
     padding: 32px 40px 64px 53px;
 }
-
+.partners-block_information {
+    display: flex;
+    flex-wrap: wrap;
+}
 .partners-block_info {
     margin-right: 76px;
 }
@@ -1009,9 +1012,7 @@
     display: flex;
 }
 
-.contacts_wrap {
-    width: calc(100% - 834px);
-}
+
 .contacts_box {
     margin-bottom: 48px;
 }
@@ -1068,9 +1069,12 @@
     margin-right: 37px;
     display: block;
 }
-.contacts_info .vacancy-search form {
+.contacts_info .vacancy-search {
     width: 748px;
     margin-left: 86px;
+}
+.contacts_wrap {
+    width: calc(100% - 834px);
 }
 .contacts_info .vacancy-search textarea {
     background: #FFFFFF;
@@ -1129,28 +1133,92 @@
     color: #7A7A7A;
 }
 
-
 /* CONTACTS END */
 
 
+/* BLOG START */
+
+    .interesting-articles .row .list {
+        width: 100%;
+        margin-left: 0;
+    }
+    .interesting-articles .article .date {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        display: inline-block;
+        margin-top: 29px;
+    }
+    .blog .articles .block_head {
+        margin-bottom: 54px;
+    }
+
+/* BLOG END */
 
 
+/* POST START */
 
-.interesting-articles .row .list {
-    width: 100%;
-    margin-left: 0;
+
+.post_info {
 }
-.interesting-articles .article .date {
-    position: relative;
-    right: 0;
-    bottom: 0;
-    display: inline-block;
-    margin-top: 29px;
+.cont {
 }
-
-
-
-
+.head {
+}
+.post_info .head .image {
+}
+.post_info .head .title {
+}
+.post_info .head .date {
+}
+.post_info .head .author {
+}
+.post_info .head .author-photo {
+}
+.text_block {
+}
+.slider {
+}
+.video_link {
+}
+.lazyload {
+}
+.loaded {
+}
+.icon {
+}
+.share {
+}
+.text {
+}
+.social {
+}
+.reason {
+}
+.block {
+}
+.reason_wrap {
+}
+.block_head {
+}
+.reason_logo {
+}
+.articles {
+}
+.interesting-articles {
+}
+.row {
+}
+.list {
+}
+.article {
+}
+.thumb {
+}
+.name {
+}
+.desc {
+}
 
 .post .slick-slide {
     margin: 0 19px;
@@ -1207,6 +1275,10 @@
 .post .slick-next:focus {
     background: #2695a7;
 }
+
+/* POST END */
+
+
 
 
 
