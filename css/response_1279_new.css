@@ -323,7 +323,7 @@
     .contacts_box-info {
         margin-right: 40px;
     }
-    .contacts_info .vacancy-search {
+    .contacts_info .vacancy-search .form {
         width: 470px;
         margin-left: 30px;
     }
@@ -449,7 +449,7 @@
 /* COURSES START */
 
     .courses .order ul li {
-        font-size: 24px;
+        font-size: 21px;
         padding-left: 50px;
         margin-bottom: 30px;
     }

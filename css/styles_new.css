@@ -1069,7 +1069,7 @@
     margin-right: 37px;
     display: block;
 }
-.contacts_info .vacancy-search {
+.contacts_info .vacancy-search .form {
     width: 748px;
     margin-left: 86px;
 }
@@ -1092,6 +1092,7 @@
     color: #7A7A7A;
     margin-bottom: 45px;
 }
+
 .contacts_info .vacancy-search .form textarea::placeholder {
     font-family: 'Ubuntu';
     font-weight: 400;

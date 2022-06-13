@@ -303,6 +303,10 @@
         width: 15px;
         height: 21px;
     }
+    .post_info .share .social img {
+        width: 38px;
+        height: 38px;
+    }
     .post_info .video_text {
         font-size: 15px;
         line-height: 130%;
