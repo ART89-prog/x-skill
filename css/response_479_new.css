@@ -365,5 +365,49 @@
 
 
 
+/* ZACHEM START */
+
+    .zachem .partners_info .image {
+        width: 310px;
+    }
+    .zachem .partners_info .image .bg {
+        top: -129px;
+        left: -9px;
+        width: 329px;
+        height: 560px;
+    }
+    .problems ul li {
+        line-height: 130%;
+    }
+    .problems ul {
+        margin-bottom: 0;
+    }
+    .problems ul li {
+        margin-right: 0px;
+        margin-bottom: 15px;
+        padding: 4px 10px;
+    }
+    .examples_item {
+        margin-bottom: 20px;
+    }
+    .examples_item-text {
+        font-size: 14px;
+    }
+    ol li {
+        margin-bottom: 20px;
+    }
+    .zachem .video_link .icon {
+        width: 50px;
+        height: 50px;
+    }
+    .zachem .video_link .icon svg {
+        width: 15px;
+        height: 21px;
+    }
+
+/* ZACHEM END */
+
+
+
 
 }

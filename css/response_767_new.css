@@ -7,6 +7,17 @@
     }
 
 /* ABOUT START */
+
+    ul li {
+        padding-left: 40px;
+    }
+    ul li .icon {
+        top: 0px;
+        left: 0;
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
     .breadcrumbs a, 
     .breadcrumbs .sep, 
     .breadcrumbs .current {
@@ -312,6 +323,58 @@
     }
 
 /* COURSES END */
+
+
+
+/* ZACHEM START */
+
+    .zachem .contacts_wrap {
+        flex-direction: column;
+    }
+    .zachem .contacts_wrap {
+        padding-bottom: 30px;
+    }
+    .zachem .contacts_info .social {
+        margin-top: 30px;
+    }
+    .examples .video_link {
+        width: 100%;
+    }
+    .examples_item-img {
+        width: 100%;
+    }
+    ol li:before {
+        top: 0px;
+        left: 0px;
+        width: 40px;
+        height: 40px;
+        font-size: 21px;
+        line-height: 40px;
+        border-radius: 10px;
+    }
+    ol li {
+        padding-left: 60px;
+    }
+    .zachem .contacts_box {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .zachem .contacts_box:last-child {
+        margin-bottom: 0px;
+    }
+    .zachem .partners_info .image {
+        width: 390px;
+        margin: 0 auto;
+    }
+    .zachem .partners_info .image .bg {
+        top: -129px;
+        left: -9px;
+        width: 403px;
+        height: 616px;
+    }
+
+
+/* ZACHEM END */
 
 
 

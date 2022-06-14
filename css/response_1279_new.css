@@ -12,6 +12,16 @@
 
 /* ABOUT START */
 
+    ul li {
+        font-size: 20px;
+    }
+    ul li .icon {
+        top: 0;
+        left: 0;
+        display: block;
+        width: 32px;
+        height: 32px;
+    }
     .breadcrumbs a,
     .breadcrumbs .sep,
     .breadcrumbs .current {
@@ -430,6 +440,26 @@
     }
 
 /* COURSES END */
+
+
+
+/* ZACHEM START */
+
+    .zachem .partners_info .image {
+        width: 430px;
+    }
+    .zachem .partners_info .image .bg {
+        top: -122px;
+        left: -23px;
+        width: 444px;
+        height: 626px;
+    }
+    .zachem .partners_info-box {
+        width: calc(100% - 480px);
+    }
+
+
+/* ZACHEM END */
 
 
 }
