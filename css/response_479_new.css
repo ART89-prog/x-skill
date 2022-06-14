@@ -53,7 +53,7 @@
         margin-bottom: 20px;
     }
     .reason ul li {
-        font-size: 18px;
+        font-size: var(--font_size2);
         margin-bottom: 14px;
         padding-left: 40px;
     }
@@ -124,11 +124,8 @@
         width: 344px;
         height: 705px;
     }
-    .benefits_item-name {
-        font-size: 18px;
-    }
     .benefits_item-text {
-        font-size: 16px;
+        font-size: var(--font_size2);
         line-height: 147%;
     }
     .benefits_item:before {
@@ -142,16 +139,14 @@
     .benefits_item {
         padding: 30px 15px 20px;
     }
-    .vacancy.accordion .data p {
-        margin-bottom: 14px;
-        font-size: 18px;
-        line-height: 137%;
-    }
-    .vacancy.accordion .data .link {
+      .vacancy.accordion .data .link {
         width: 100%;
     }
     .vacancy-search .block_head .title br {
         display: none;
+    }
+    .vacancy.accordion .data p {
+        margin-bottom: 10px;
     }
 
 
@@ -182,10 +177,10 @@
         padding: 17px;
     }
     .partners-block_info .name {
-        font-size: 18px;
+        font-size: var(--font_size2);
     }
     .partners-block_info .text {
-        font-size: 18px;
+        font-size: var(--font_size2);
     }
     .partners-block_information {
         margin-bottom: -10px;
@@ -217,16 +212,16 @@
 /* CONTACTS START */
 
     .contacts_info .name {
-        font-size: 18px;
+        font-size: var(--font_size2);
     }
     .contacts_info .text {
-        font-size: 18px;
+        font-size: var(--font_size2);
     }
     .contacts_box-info a {
-        font-size: 18px;
+        font-size: var(--font_size2);
     }
     .contacts_box-info span {
-        font-size: 18px;
+        font-size: var(--font_size2);
     }
     .contacts_box-information {
         padding-bottom: 20px;
@@ -266,7 +261,7 @@
     .post_info .head .image .title {
         top: 15px;
         left: 15px;
-        font-size: 17px;
+        font-size: 18px;
     }
     .post_info .head .image .date {    
         padding: 0px 9px;
@@ -274,10 +269,6 @@
     }
     .post_info .head .author-photo {
         font-size: 14px;
-    }
-    .post_info .text_block p {
-        font-size: 16px;
-        margin-bottom: 17px;
     }
     .post .slick-prev, 
     .post .slick-next {
@@ -295,6 +286,10 @@
     .post .slick-prev {
         left: -16px;
     }
+    .post .slider img {
+        border-radius: 15px;
+        height: auto;
+    }
     .post_info .video_link .icon {
         width: 50px;
         height: 50px;
@@ -308,18 +303,18 @@
         height: 38px;
     }
     .post_info .video_text {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 130%;
     }
     .post_info .text_block h2 {
-        font-size: 26px;
-        line-height: 140%;
+        font-size: 22px;
+        line-height: 130%;
     }
     .post_info .share .text {
         font-size: 16px;
     }
     .post .reason .desc {
-        font-size: 18px;
+        font-size: var(--font_size2);
         margin-bottom: 18px;
         line-height: 140%;
     }

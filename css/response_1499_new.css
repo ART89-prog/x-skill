@@ -5,6 +5,9 @@
     .block {
         margin-top: 100px;
     }
+    .block_head .desc, .block_head.center .desc {
+        font-size: var(--font_size2);
+    }
     .about_info .video_link {
         width: 600px;
         height: 402px;
@@ -14,7 +17,6 @@
     }
     .about_info .desc p,
     .about_info ul li {
-        font-size: 20px;
         margin-bottom: 15px;
     }
     .director .image {
@@ -36,13 +38,6 @@
     }
     .director_info {
         width: calc(100% - 595px);
-    }
-    .director .text_block p {
-        font-size: 20px;
-        margin-bottom: 30px;
-    }
-    .case .block_head .desc {
-        font-size: 20px;
     }
     .reason ul li {
         font-size: 29px;
@@ -76,10 +71,6 @@
     }
     .vacancy-search_info {
         width: calc(100% - 590px);
-    }
-    .benefits .block_head .desc,
-    .vacancy .block_head .desc {
-        font-size: 20px;
     }
 
 
@@ -143,10 +134,6 @@
 .contacts_box-information {
     padding-bottom: 40px;
 }
-.contacts_box-title {
-    font-size: 34px;
-    margin-bottom: 20px;
-}
 .contacts_box {
     margin-bottom: 30px;
 }
@@ -178,6 +165,9 @@
     }
     .post .articles .article .date {
         left: 0;
+    }
+    .post .slider img {
+        height: 220px;
     }
 
 /* BLOG END */

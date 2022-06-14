@@ -14,24 +14,20 @@
     .block {
         margin-top: 55px;
     }
-    /* .about .block_head .title {
-        font-size: 30px;
-    } */
     .about_info .desc p, 
     .about_info ul li {
-        font-size: 18px;
         margin-bottom: 10px;
     }
     .about_info ul li::before {
         width: 10px;
         height: 10px;
-        top: 14px;
+        top: 11px;
     }
     .about_info ul li {
         padding-left: 20px;
     }
     .case .link {
-        font-size: 18px;
+        font-size: var(--font_size2);
         padding: 11px 17px 14px;
     }
     .case_item-info {
@@ -74,9 +70,6 @@
         width: 422px;
         transform: translateX(-50%);
     }
-    .director .text_block p {
-        font-size: 18px;
-    }
     .reason_wrap {
         padding: 30px;
     } 
@@ -114,13 +107,6 @@
 
 /* CAREER START */
 
-    /* .career .block_head .title {
-        font-size: 30px;
-    } */
-    .career_info .desc p {
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
     .career_info .data {
         flex-direction: column;
         align-items: center;
@@ -131,7 +117,7 @@
     }
     .benefits_items {
         margin-left: -20px;
-        margin-top: 80px;
+        margin-top: 50px;
         margin-bottom: -80px;
     }
     .benefits_items > * {
@@ -145,11 +131,6 @@
     .vacancy .accordion_item .head .title {
         font-size: 20px;
     }
-    .vacancy.accordion .data p {
-        margin-bottom: 20px;
-        font-size: 19px;
-        line-height: 150%;
-    }
     .vacancy-search .data {
         flex-direction: column;
     }
@@ -162,30 +143,13 @@
         margin-left: 0px;
     }
     .vacancy-search ul li {
-        font-size: 20px;
-        line-height: 140%;
         padding-left: 50px;
         margin-bottom: 20px;
     }
     .vacancy-search .form input {
         height: 65px;
-        font-size: 20px;
     }
-    .vacancy-search .form input::placeholder {
-        font-size: 20px;
-    }
-    .vacancy-search .form input::-webkit-input-placeholder {
-        font-size: 20px;
-    }
-    .vacancy-search .form input::-moz-placeholder {
-        font-size: 20px;
-    }
-    .vacancy-search .form input:-moz-placeholder {
-        font-size: 20px;
-    }
-    .vacancy-search .form input:-ms-input-placeholder {
-        font-size: 20px;
-    }
+
 
 
 /* CAREER END */
@@ -248,9 +212,6 @@
         width: 100%;
         margin-left: 0px;
     }
-    .contacts .block_head .desc {
-        font-size: 20px;
-    }
     .contacts .block_head {
         margin-bottom: 30px;
     }
@@ -259,21 +220,8 @@
     }
     .contacts_info .vacancy-search .form textarea {
         height: 220px;
-        font-size: 20px;
-        font-family: var(--font_family);
     }
-    .contacts_info .vacancy-search .form textarea::placeholder {
-        font-size: 20px;
-        font-family: var(--font_family);
-    }
-    .contacts_info .vacancy-search .form textarea::-moz-placeholder {
-        font-size: 20px;
-        font-family: var(--font_family);
-    }
-    .contacts_info .vacancy-search .form textarea:-moz-placeholder {
-        font-size: 20px;
-        font-family: var(--font_family);
-    }
+
 
 /* CONTACTS END */
 
@@ -319,10 +267,6 @@
         margin-top: 12px;
         margin-bottom: 18px;
     }
-    .post_info .text_block p {
-        font-size: 20px;
-        margin-bottom: 30px;
-    }
     .post .slick-prev,
     .post .slick-next {
         width: 70px;
@@ -337,7 +281,7 @@
         height: 33px;
     }
     .post_info .video_text {
-        font-size: 18px;
+        font-size: var(--font_size2);
         margin-top: 7px;
     }
     .post_info .text_block h2 {
@@ -357,7 +301,7 @@
 /* COURSES START */
 
     .courses .order ul li {
-        font-size: 18px;
+        font-size: var(--font_size2);
         margin-bottom: 10px;
     }
     .courses .order ul li::before {

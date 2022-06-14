@@ -82,7 +82,7 @@
     font-size: var(--font_size2);
 }
 .about_info .desc_bottom p {
-    margin-bottom: 23px;
+    margin-bottom: 28px;
     font-size: var(--font_size2);
 }
 .about_info .desc_bottom p:last-child {
@@ -651,12 +651,7 @@ ul li:last-child {
     align-items: flex-start;
 }
 .vacancy.accordion .data p {
-    margin-bottom: 42px;
-    font-family: var(--font_family);
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 180%;
-    color: #696984;
+    margin-bottom: 23px;
 }
 .vacancy.accordion .data p b {
     color: #696984;
@@ -675,13 +670,6 @@ ul li:last-child {
     border-radius: 80px;
     background: #bce01a;
     width: 365px;
-}
-.vacancy .accordion_item .head .title {
-    font-family: var(--font_family);
-    font-weight: 500;
-    font-size: 26px;
-    line-height: 160%;
-    color: #4B4B4B;
 }
 .vacancy-search .data {
     display: flex;

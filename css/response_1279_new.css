@@ -15,7 +15,7 @@
     .breadcrumbs a,
     .breadcrumbs .sep,
     .breadcrumbs .current {
-        font-size: 18px;
+        font-size: var(--font_size2);
     }
     .about_info .data {
         flex-direction: column;
@@ -78,13 +78,13 @@
         margin-bottom: 4px;
     }
     .case_item-category {
-        font-size: 18px;
+        font-size: var(--font_size2);
         line-height: 161%;
         margin-bottom: 9px;
     }
     .case_item-list li {
         padding-left: 18px;
-        font-size: 18px;
+        font-size: var(--font_size2);
         line-height: 156%;
         margin-bottom: 8px;
     }
@@ -181,7 +181,7 @@
     }
     .team_item-email, 
     .team_item-phone {
-        font-size: 18px;
+        font-size: var(--font_size2);
     }
     .team_item-email {
         margin-bottom: 8px;
@@ -219,13 +219,8 @@
     .benefits_item {
         padding: 85px 40px 40px;
     }
-    .benefits_item-name {
-        font-size: 24px;
-        line-height: 28px;
-        margin-bottom: 14px;
-    }
     .benefits_item-text {
-        font-size: 18px;
+        font-size: var(--font_size2);
         line-height: 147%;
     }
     .benefits_item:before {
@@ -260,11 +255,6 @@
     .vacancy .accordion_item .head .title {
         font-size: 22px;
     }
-    .vacancy.accordion .data p {
-        margin-bottom: 30px;
-        font-size: 20px;
-        line-height: 150%;
-    }
     .vacancy-search ul li .icon {
         top: 0;
         left: 0;
@@ -279,13 +269,13 @@
 /* PARTNERS START */
 
     .partners-block_info .name {
-        font-size: 20px;
+        font-size: var(--font_size2);
     }
     .partners-block_info .text {
-        font-size: 20px;
+        font-size: var(--font_size2);
     }
     .partners-block_info a {
-        font-size: 20px;
+        font-size: var(--font_size2);
     }
 
 /* PARTNERS END */
@@ -308,31 +298,13 @@
     .contacts_wrap {
         width: calc(100% - 500px);
     }
-    .contacts_box-title {
-        font-size: 30px;
-        margin-bottom: 15px;
-    }
-    .contacts_info .name {
-        font-size: 22px;
-    }
-    .contacts_info .text {
-        font-size: 22px;
-    }
-    .contacts_box-info a {
-        font-size: 22px;
-    }
-    .contacts_box-info span {
-        font-size: 22px;
-    }
     .contacts_info .social img {
         width: 50px;
     } 
     .contacts_info .social a {
         margin-right: 20px;
     }
-    .contacts .block_head .desc {
-        font-size: 22px;
-    }
+
 
 
 /* CONTACTS END */
@@ -394,8 +366,7 @@
         margin-bottom: 20px;
     }
     .post_info .text_block p {
-        font-size: 22px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
     .slider {
         margin-bottom: 40px;
