@@ -80,6 +80,7 @@
 .about_info .desc p {
     margin-bottom: 23px;
     font-size: var(--font_size2);
+    line-height: 180%;
 }
 .about_info .desc_bottom p {
     margin-bottom: 28px;
@@ -516,6 +517,9 @@ ul li:last-child {
 .registry .block_head {
     margin-bottom: 0;
 }
+.registry .block_head .title {
+    margin-bottom: 30px;
+}
 
 /* ABOUT END */
 
@@ -544,6 +548,7 @@ ul li:last-child {
 }
 .career_info .desc p {
     margin-bottom: 22px;
+    line-height: 180%;
 }
 .career_info .desc p:last-child {
     margin-bottom: 0;
@@ -1119,6 +1124,7 @@ ul li:last-child {
 }
 .post_info .head .image .title {
     position: absolute;
+    padding-right: 15px;
     top: 70px;
     left: 70px;
     font-weight: 700;

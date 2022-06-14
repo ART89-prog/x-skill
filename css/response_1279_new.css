@@ -134,12 +134,12 @@
         height: 100%;
     }
     .reason ul li {
-        font-size: 24px;
+        font-size: 20px;
         padding-left: 50px;
         margin-bottom: 30px;
     }
     .reason ul li .icon {
-        top: 2px;
+        top: 0px;
         left: 0;
         width: 32px;
         height: 32px;
@@ -172,12 +172,19 @@
         padding: 20px;
     }
     .team_item-name {
-        font-size: 22px;
+        font-size: 20px;
         line-height: 150%;
         margin-bottom: 7px;
     }
     .team_item-post {
-        font-size: 19px;
+        font-size: var(--font_size2);
+    }
+    .team_item-email, 
+    .team_item-phone {
+        font-size: var(--font_size2);
+    }
+    .team_item-post {
+        font-size: var(--font_size2);
     }
     .team_item-email, 
     .team_item-phone {
@@ -204,10 +211,11 @@
     .registry ul li .icon {
         width: 32px;
         height: 32px;
-        top: 10px;
+        top: 4px;
     }
     .registry ul li {
         padding-left: 50px;
+        font-size: 20px;
     }
 
 
@@ -398,7 +406,7 @@
 /* COURSES START */
 
     .courses .order ul li {
-        font-size: 21px;
+        font-size: var(--font_size2);
         padding-left: 50px;
         margin-bottom: 30px;
     }

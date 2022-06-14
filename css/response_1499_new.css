@@ -40,7 +40,18 @@
         width: calc(100% - 595px);
     }
     .reason ul li {
-        font-size: 29px;
+        font-size: 22px;
+    }
+    .registry ul li {
+        font-size: 22px;
+    }
+    .team_item-name {
+        font-size: 22px;
+        line-height: 150%;
+        margin-bottom: 7px;
+    }
+    .order ul li {
+        font-size: 20px;
     }
 
 /* ABOUT END */
@@ -103,10 +114,6 @@
         font-size: 36px;
         line-height: 140%;
         margin-bottom: 0px;
-    }
-    .partners_info .desc p {
-        font-size: 20px;
-        margin-bottom: 15px;
     }
 
 /* PARTNERS END */

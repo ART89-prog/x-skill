@@ -38,6 +38,17 @@
         flex-direction: column-reverse;
         padding: 25px 0;
     }
+    .registry ul li .icon {
+        width: 32px;
+        height: 32px;
+        top: 0px;
+    }
+    .registry ul li {
+        font-size: var(--font_size2);
+    }
+    .reason ul li {
+        font-size: var(--font_size2);
+    }
     .registry .data {
         margin-left: 0px;
     }
@@ -215,7 +226,7 @@
     .post_info .head .image .title {
         top: 20px;
         left: 20px;
-        font-size: 22px;
+        font-size: 24px;
         line-height: 129%;
         max-width: 600px;
     }
@@ -295,6 +306,9 @@
         width: 100%;
         margin-left: 0px;
         margin-bottom: 20px;
+    }
+    .team .block_head .desc {
+        font-size: var(--font_size2);
     }
 
 /* COURSES END */

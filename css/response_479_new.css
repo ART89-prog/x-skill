@@ -261,7 +261,6 @@
     .post_info .head .image .title {
         top: 15px;
         left: 15px;
-        font-size: 18px;
     }
     .post_info .head .image .date {    
         padding: 0px 9px;
@@ -309,6 +308,9 @@
     .post_info .text_block h2 {
         font-size: 22px;
         line-height: 130%;
+    }
+    .post_info .text_block p {
+        font-size: 15px;
     }
     .post_info .share .text {
         font-size: 16px;
