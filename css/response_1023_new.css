@@ -364,6 +364,7 @@
     .examples_item-text {
         margin-left: 0;
         margin-top: 20px;
+        margin-bottom: 20px;
     }
     .zachem .contacts_box-information {
         flex-direction: column;
