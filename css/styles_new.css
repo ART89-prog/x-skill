@@ -1721,7 +1721,106 @@ ol li:before {
     width: calc(100% - 760px);
 }
 
-
-
-
 /* ZACHEM END */
+
+
+
+/* SIMULATOR START */
+
+.numbers ul li {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 60px rgba(41, 44, 124, 0.1);
+    border-radius: 20px;
+    padding: 46px 54px 46px 117px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 144%;
+    letter-spacing: 0.02em;
+    color: #696984;
+}
+.numbers ul li .icon {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 54px;
+    display: block;
+    width: 63px;
+    height: 63px;
+}
+.numbers ul li:nth-child(2n + 1) .icon {
+    color: #bce01a;
+}
+.numbers ul li:nth-child(2n) .icon {
+    color: #16A3B9;
+}
+.numbers ul li span {
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 152.5%;
+    letter-spacing: -0.105em;
+    color: #16A3B9;
+    margin-left: 36px;
+    margin-right: 36px;   
+    display: block;
+}
+.numbers ul li:nth-child(2n) span {
+    color: #bce01a;
+}
+.numbers ul li:nth-child(2n + 1) span {
+    color: #16A3B9;
+}
+.numbers-link {
+    margin-top: 61px;
+}
+.numbers-link span {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    color: #696984;
+}
+.numbers-link a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    color: #16A3B9;
+}
+.examples_item-info {
+    margin-left: 48px;
+}
+.examples_item-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 180%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.simulator .examples_item-text {
+    margin-left: 0;
+}
+.simulator .block_head {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.simulator .partners_info .image {
+    width: 705px;
+    position: relative;
+    margin-right: 0;
+    margin-top: 0;
+}
+.simulator .partners_info .image .bg {
+    top: -9px;
+    left: -79px;
+    width: 790px;
+    height: 898px;
+}
+.simulator .partners_info-box {
+    width: calc(100% - 775px);
+}
+
+
+
+/* SIMULATOR END */

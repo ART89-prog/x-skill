@@ -409,5 +409,42 @@
 
 
 
+/* SIMULATOR START */
+
+    .numbers ul li {
+        flex-wrap: wrap;
+    }
+    .numbers ul li {
+        font-size: 14px;
+    }
+    .numbers ul li .icon {
+        left: 10px;
+        width: 24px;
+        height: 24px;
+    }
+    .numbers ul li span {
+        margin: 0 auto;
+        font-size: 26px;
+    }
+    .numbers ul li {
+        font-size: var(--font_size2);
+        padding: 12px 12px 12px 45px;
+    }
+    .simulator .partners_info .image {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .simulator .partners_info .image .bg {
+        top: -66px;
+        left: -25px;
+        width: 348px;
+        height: 515px;
+    }
+
+
+/* SIMULATOR END */
+
+
+
 
 }

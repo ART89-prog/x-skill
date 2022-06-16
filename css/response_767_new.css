@@ -377,6 +377,33 @@
 /* ZACHEM END */
 
 
+/* SIMULATOR START */
+
+
+
+
+/* SIMULATOR END */
+
+    .numbers-link {
+        margin-top: 30px;
+    }
+    .examples_item-title {
+        font-size: 22px;
+    }
+    .simulator .partners_info .image {
+        width: 380px;
+        margin: 0 auto;
+    }
+    .simulator .partners_info .image .bg {
+        top: -43px;
+        left: -11px;
+        width: 426px;
+        height: 610px;
+    }
+    .simulator .partners_info-box {
+        width: 100%;
+    }
+
 
 }
 

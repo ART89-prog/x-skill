@@ -208,4 +208,36 @@
 
 
 
+/* SIMULATOR START */
+
+    .numbers ul li {
+        font-size: 22px;
+    }
+    .numbers-link {
+        margin-top: 50px;
+    }
+    .numbers-link a,
+    .numbers-link span {
+        margin-top: 50px;
+        font-size: 22px;
+    }
+    .simulator .partners_info .image {
+        width: 585px;
+        position: relative;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .simulator .partners_info .image .bg {
+        top: -43px;
+        left: -36px;
+        width: 702px;
+        height: 928px;
+    }
+    .simulator .partners_info-box {
+        width: calc(100% - 635px);
+    }
+
+/* SIMULATOR END */
+
+
 }

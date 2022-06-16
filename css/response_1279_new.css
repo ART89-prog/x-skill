@@ -462,4 +462,33 @@
 /* ZACHEM END */
 
 
+/* SIMULATOR START */
+
+    .numbers ul li {
+        font-size: 20px;
+        padding: 30px 30px 30px 95px;
+    }
+    .numbers-link a {
+        font-size: 20px;
+    }
+    .numbers-link,
+    .numbers-link span {
+        margin-top: 45px;
+    }
+    .simulator .partners_info .image {
+        width: 460px;
+    }
+    .simulator .partners_info .image .bg {
+        top: -43px;
+        left: -59px;
+        width: 546px;
+        height: 643px;
+    }
+    .simulator .partners_info-box {
+        width: calc(100% - 520px);
+    }
+
+/* SIMULATOR END */
+
+
 }

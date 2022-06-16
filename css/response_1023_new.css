@@ -405,6 +405,54 @@
 
 
 
+/* SIMULATOR START */
+
+    .numbers ul li {
+        font-size: var(--font_size2);
+        padding: 20px 20px 20px 65px;
+    }
+    .numbers ul li .icon {
+        left: 30px;
+        width: 40px;
+        height: 40px;
+    }
+    .numbers ul li span {
+        font-size: 42px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .numbers-link a,
+    .numbers-link span {
+        font-size: var(--font_size2);
+    }
+    .numbers-link {
+        margin-top: 40px;
+    }
+    .examples_item-info {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .simulator .partners_info .image {
+        width: 460px;
+        margin: 0 auto;
+    }
+    .simulator .partners_info .image .bg {
+        top: -43px;
+        left: -59px;
+        width: 546px;
+        height: 643px;
+    }
+    .simulator .partners_info-box {
+        width: 100%;
+    }
+    .simulator .partners_info .desc {
+        max-width: 100%;
+        width: 100%;
+    }
+
+
+/* SIMULATOR END */
+
 
 
 }
