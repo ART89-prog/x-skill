@@ -1566,7 +1566,6 @@ ul li .icon {
     font-weight: 500;
     font-size: var(--font_size2);
     line-height: 180%;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-right: 30px;
@@ -1727,6 +1726,10 @@ ol li:before {
 
 /* SIMULATOR START */
 
+.partners_info .vacancy-search ul li span {
+    font-weight: 700;
+    color: #16A3B9;
+}
 .numbers ul li {
     display: flex;
     align-items: center;
