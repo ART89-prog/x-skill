@@ -5,8 +5,7 @@
 
 /* ABOUT START */
 
-.about .cont {
-    max-width: 1702px;
+.about .cont {    
     justify-content: space-between;
     align-items: center;
     align-content: center;
@@ -542,7 +541,6 @@ ul li .icon {
 /* CAREER START */
 
 .career .cont {
-    max-width: 1702px;
     justify-content: space-between;
     align-items: center;
     align-content: center;
@@ -791,7 +789,6 @@ ul li .icon {
     margin-bottom: 29px;
 }
 .partners .cont {
-    max-width: 1702px;
     justify-content: space-between;
     align-items: center;
     align-content: center;
@@ -940,7 +937,6 @@ ul li .icon {
     margin-bottom: 57px;
 }
 .contacts  .cont {
-    max-width: 1702px;
     justify-content: space-between;
     align-items: center;
     align-content: center;
@@ -1097,7 +1093,6 @@ ul li .icon {
 /* POST START */
 
 .post .cont {
-    max-width: 1702px;
     justify-content: space-between;
     align-items: center;
     align-content: center;
@@ -1584,7 +1579,6 @@ ul li .icon {
     margin-bottom: 46px;
 }
 .examples_item-text {
-    margin-left: 48px;
     font-weight: 400;
     font-size: var(--font_size2);
     line-height: 180%;
@@ -1676,6 +1670,7 @@ ol li:before {
     color: #627413;
     border-radius: 17px;
 }
+.simulator .order_block,
 .zachem .order_block {
     margin-bottom: 0;
 }
@@ -1852,6 +1847,10 @@ ol li:before {
     width: 790px;
     height: 643px;
 }
+.course-modul .partners_info ul li {
+    color: #4B4B4B !important;
+}
+
 
 
 /* COURSE_MODUL END */ 
