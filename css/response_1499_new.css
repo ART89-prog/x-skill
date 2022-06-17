@@ -240,4 +240,18 @@
 /* SIMULATOR END */
 
 
+
+/* COURSE_MODUL START */ 
+
+    .course-modul .partners_info .image .bg {
+        top: -86px;
+        left: -79px;
+        width: 625px;
+        height: 643px;
+    }
+
+
+/* COURSE_MODUL END */ 
+
+
 }

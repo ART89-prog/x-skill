@@ -379,11 +379,6 @@
 
 /* SIMULATOR START */
 
-
-
-
-/* SIMULATOR END */
-
     .numbers-link {
         margin-top: 30px;
     }
@@ -403,6 +398,35 @@
     .simulator .partners_info-box {
         width: 100%;
     }
+
+
+/* SIMULATOR END */
+
+
+/* BAZA START */ 
+
+.baza .partners_info .image .bg {
+    top: -172px;
+    left: -9px;
+    width: 403px;
+    height: 616px;
+}
+
+/* BAZA END */ 
+
+
+/* COURSE_MODUL START */ 
+
+.course-modul .partners_info .image .bg {
+    top: -86px;
+    left: -38px;
+    width: 410px;
+    height: 484px;
+}
+
+
+/* COURSE_MODUL END */ 
+
 
 
 }

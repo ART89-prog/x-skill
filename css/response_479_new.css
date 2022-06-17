@@ -445,6 +445,29 @@
 /* SIMULATOR END */
 
 
+/* BAZA START */ 
+
+    .baza .partners_info .image .bg {
+        top: -169px;
+        left: -9px;
+        width: 329px;
+        height: 560px;
+    }
+
+/* BAZA END */
+
+
+/* COURSE_MODUL START */ 
+
+.course-modul .partners_info .image .bg {
+        top: -86px;
+        left: -23px;
+        width: 312px;
+        height: 428px;
+    }
+
+
+/* COURSE_MODUL END */ 
 
 
 }

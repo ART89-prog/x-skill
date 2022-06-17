@@ -777,6 +777,9 @@ ul li .icon {
     letter-spacing: 0.02em;
     color: #7A7A7A;
 }
+.accordion_item.active .head {
+    border-bottom: 1px solid #CDCDCD;
+}
 
 /* CAREER END */
 
@@ -1824,6 +1827,30 @@ ol li:before {
     width: calc(100% - 775px);
 }
 
-
-
 /* SIMULATOR END */
+
+
+/* BAZA START */ 
+
+.baza .partners_info .image .bg {
+    top: -37px;
+    left: -79px;
+    width: 790px;
+    height: 580px;
+}
+
+
+/* BAZA END */ 
+
+
+/* COURSE_MODUL START */ 
+
+.course-modul .partners_info .image .bg {
+    top: -37px;
+    left: -79px;
+    width: 790px;
+    height: 643px;
+}
+
+
+/* COURSE_MODUL END */ 
