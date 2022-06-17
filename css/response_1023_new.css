@@ -479,8 +479,52 @@
 /* COURSE_MODUL END */ 
 
 
+/* PRESENTATION START */
+
+.presentation .data {
+    flex-direction: column;
+}
+.presentation .image {
+    width: 600px;
+    height: 337px;
+    margin: 25px auto 0;
+}
+.presentation .presentation-box {
+    width: 100%;
+}
+.presentation {
+    padding: 50px 0;
+}
+.presentation-link_img {
+    width: 60px;
+    height: 75px;
+}
+.presentation-link {
+    margin-right: 15px;
+}
+
+/* PRESENTATION END */
 
 
+/* GALLERY START */
+
+    .gallery_items {
+        margin-left: -20px;
+        margin-bottom: -20px;
+    }
+    .gallery_items > * {
+        width: calc(100%/3 - 20px);
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .gallery_item:nth-child(5n + 1) {
+        width: calc(100%/2 - 20px);
+    }
+    .gallery_item:nth-child(5n + 2) {
+        width: calc(100%/2 - 20px);
+    }
+
+/* GALLERY END */
 
 
 }

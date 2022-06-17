@@ -428,6 +428,39 @@
 /* COURSE_MODUL END */ 
 
 
+/* PRESENTATION START */
+
+    .presentation .image {
+        width: 400px;
+        height: 225px;
+        margin: 25px auto 0;
+    }
+    .presentation {
+        padding: 30px 0;
+    }
+    .presentation-link_img {
+        width: 45px;
+        height: 56px;
+    }
+    .presentation-link_info {
+        margin-left: 10px;
+    }
+    .presentation-link_info-name {
+        line-height: 120%;
+    }
+
+/* PRESENTATION END */
+
+
+/* GALLERY START */
+
+.gallery_items > * {
+    width: calc(100%/2 - 20px);
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* GALLERY END */
 
 }
 

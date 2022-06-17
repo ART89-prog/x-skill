@@ -470,4 +470,26 @@
 /* COURSE_MODUL END */ 
 
 
+
+/* PRESENTATION START */
+
+    .presentation .image {
+        width: 300px;
+        height: 168px;
+        margin: 20px auto 0;
+    }
+
+/* PRESENTATION END */
+
+
+/* GALLERY START */
+
+
+/* GALLERY END */
+
+
+
+
+
+
 }
