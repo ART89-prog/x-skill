@@ -32,6 +32,14 @@ $(() => {
         });
     }
 
+
+    $('.help-search .vacancy.accordion .block_head button').click(function(){
+		$('.help-search .vacancy.accordion .data').slideToggle(300); 
+	});
+
+
+    
+
     $("#js_number_student").ionRangeSlider({        
         min: 10,
         max: 5000,
