@@ -488,8 +488,39 @@
 /* GALLERY END */
 
 
+/* CALC START */
+.number_student, .list_parametr, .our_courser .title_choise, .total_sum{
+    padding:20px;
+}
+.number_student .title_choise .title, .total_title, .total_sum{
+    font-size: 18px;
+    line-height: 20px;
+}
+.number_student .tooltip .btn, .number_student .tooltip .btn svg {
+    width: 28px;
+    height: 28px;
+}
 
+.our_courser input[type=checkbox]{
+    width: 30px;
+    height: 30px;
+}
+.our_courser{
+    padding:0;
+}
+.list_parametr div{
+    font-size: 15px;
+    line-height: 160%;
+}
+.list_parametr div{
+    padding-left:25px;
+}
+.list_parametr div:before{
+    height: 12px;
+    width: 12px;
+    top: 6px;
+}
 
-
+/* CALC END */
 
 }
