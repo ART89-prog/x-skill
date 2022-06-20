@@ -2,7 +2,6 @@ $(() => {
 	// Ширина окна для ресайза
 	WW = $(window).width()
 
-	console.log(window.navigator.userAgent);
 	var md = new MobileDetect(window.navigator.userAgent);
     if (md.mobile()) {
         //$(".who_needs .item").data("aos-delay", "0");  
@@ -19,43 +18,46 @@ $(() => {
 
 	AOS.init();
 
-	const scroller = scrollama();
-	// setup the instance, pass callback functions
-	scroller.setup({
-		step: ".pre_title"
-	})
-	.onStepEnter((response) => {				
-		setTimeout(() => $(response.element).removeClass("animate__heartBeat"), 0);
-		setTimeout(() => $(response.element).addClass("animate__heartBeat"), 100);		
-	})
-	.onStepExit((response) => {	
-	});
+	if($(".pre_title").length>0)
+	{
+		const scroller = scrollama();
+		// setup the instance, pass callback functions
+		scroller.setup({
+			step: ".pre_title"
+		})
+		.onStepEnter((response) => {				
+			setTimeout(() => $(response.element).removeClass("animate__heartBeat"), 0);
+			setTimeout(() => $(response.element).addClass("animate__heartBeat"), 100);		
+		})
+		.onStepExit((response) => {	
+		});
 
-	//animate__fadeInUp
+		//animate__fadeInUp
 
-	// Заголовки
-	if (window.innerWidth > 767) {
-		const el = document.querySelectorAll('.js-key-features-badge')
+		// Заголовки
+		if (window.innerWidth > 767) {
+			const el = document.querySelectorAll('.js-key-features-badge')
 
-		if (el.length) {
-			el.forEach(element => {
-				let parent = element.closest('.step'),
-					scroller = scrollama()
+			if (el.length) {
+				el.forEach(element => {
+					let parent = element.closest('.step'),
+						scroller = scrollama()
 
-				scroller.setup({
-					step: parent,
-					progress: true,
-					offset: 1
-				}).onStepProgress(response => {
-					if (response.progress > 0.7) {
-						element.style.setProperty('--progress', 1)
-						parent.querySelector('.key-features__wrapper').style.setProperty('--progress', 1)
-					} else {
-						element.style.setProperty('--progress', response.progress)
-						parent.querySelector('.key-features__wrapper').style.setProperty('--progress', response.progress)
-					}
+					scroller.setup({
+						step: parent,
+						progress: true,
+						offset: 1
+					}).onStepProgress(response => {
+						if (response.progress > 0.7) {
+							element.style.setProperty('--progress', 1)
+							parent.querySelector('.key-features__wrapper').style.setProperty('--progress', 1)
+						} else {
+							element.style.setProperty('--progress', response.progress)
+							parent.querySelector('.key-features__wrapper').style.setProperty('--progress', response.progress)
+						}
+					})
 				})
-			})
+			}
 		}
 	}
 
@@ -195,35 +197,38 @@ $(() => {
 
 $(window).on('load', () => {
 	// Элементы первого блока
-	startOffsetTop = 280
-	endOffsetTop = $('.first_section .btn').offset().top
-	endOffsetLeft = $('.first_section .btn').offset().left + ($('.first_section .btn').width() * 0.25)
-	items = $('.first_section .items .item')
-	itemsOffsets = []
-	path = endOffsetTop - startOffsetTop
+	if($(".first_section").length>0)
+	{
+		startOffsetTop = 280
+		endOffsetTop = $('.first_section .btn').offset().top
+		endOffsetLeft = $('.first_section .btn').offset().left + ($('.first_section .btn').width() * 0.25)
+		items = $('.first_section .items .item')
+		itemsOffsets = []
+		path = endOffsetTop - startOffsetTop
 
-	items.each(function () {
-		itemsOffsets.push({
-			offsetTop: $(this).offset().top,
-			offsetLeft: $(this).offset().left
-		})
-	})
-
-	$(window).on('scroll', () => {
-		// Элементы первого блока
-		if ($(window).scrollTop() > startOffsetTop && $(window).scrollTop() < endOffsetTop) {
-			let distance = $(window).scrollTop() / path - startOffsetTop / path + 50 / path
-
-			items.each(function (index) {
-				let itemPathTop = endOffsetTop - itemsOffsets[index].offsetTop,
-					itemPathLeft = endOffsetLeft - itemsOffsets[index].offsetLeft
-				$(this).css({
-					'margin-top': itemPathTop * distance + 'px',
-					'margin-left': itemPathLeft * distance + 'px'
-				})
+		items.each(function () {
+			itemsOffsets.push({
+				offsetTop: $(this).offset().top,
+				offsetLeft: $(this).offset().left
 			})
-		}
-	})
+		})
+
+		$(window).on('scroll', () => {
+			// Элементы первого блока
+			if ($(window).scrollTop() > startOffsetTop && $(window).scrollTop() < endOffsetTop) {
+				let distance = $(window).scrollTop() / path - startOffsetTop / path + 50 / path
+
+				items.each(function (index) {
+					let itemPathTop = endOffsetTop - itemsOffsets[index].offsetTop,
+						itemPathLeft = endOffsetLeft - itemsOffsets[index].offsetLeft
+					$(this).css({
+						'margin-top': itemPathTop * distance + 'px',
+						'margin-left': itemPathLeft * distance + 'px'
+					})
+				})
+			}
+		})
+	}
 
 })
 
@@ -231,17 +236,20 @@ $(window).on('load', () => {
 
 
 $(window).scroll(function () { // Когда страница прокручивается
-  	const scroller_num = scrollama();
-	// setup the instance, pass callback functions
-	scroller_num.setup({
-		step: ".stats",
-		offset: 0.8
-	})
-	.onStepEnter((response) => {				
-		numAnimate()	
-	})
-	.onStepExit((response) => {	
-	});
+	if($(".stats").length>0)
+	{
+	  	const scroller_num = scrollama();
+		// setup the instance, pass callback functions
+		scroller_num.setup({
+			step: ".stats",
+			offset: 0.8
+		})
+		.onStepEnter((response) => {				
+			numAnimate()	
+		})
+		.onStepExit((response) => {	
+		});
+	}
 });
 
 
