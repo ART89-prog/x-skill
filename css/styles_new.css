@@ -1570,6 +1570,9 @@ ul li .icon {
     margin-right: 30px;
     margin-bottom: 32px;
 }
+.ml35 {
+    margin-left: 35px;
+}
 .examples_items {
     margin-bottom: -46px;
 }
@@ -2285,6 +2288,9 @@ input[type="search"]::-webkit-search-results-decoration {
 .help .vacancy.accordion .data a:last-child:after {
     display: none;
 }
+.help-page_info ul li {
+    font-size: var(--font_size2);
+}
 
 /* HELP END */
 
@@ -2302,11 +2308,15 @@ input[type="search"]::-webkit-search-results-decoration {
     text-decoration: none;
     font-family: var(--font_family);
     font-weight: 400;
-    font-size: 26px;
+    font-size: var(--font_size2);
     line-height: 180%;
     letter-spacing: 0.02em;
     color: #16A3B9;
     align-items: center;
+    margin-top: 10px;
+}
+.help-page_info .block_head a svg {
+    width: 26px;
 }
 .help-page_info .block_head a span {
     margin-left: 10px;
@@ -2345,8 +2355,8 @@ input[type="search"]::-webkit-search-results-decoration {
     padding: 44px 37px;
     font-family: var(--font_family);
     font-weight: 500;
-    font-size: 28px;
-    line-height: 32px;
+    font-size: var(--font_size2);
+    line-height: 140%;
     color: #4B4B4B;
     display: flex;
     align-items: center; 
@@ -2381,9 +2391,7 @@ input[type="search"]::-webkit-search-results-decoration {
     align-items: center;
     flex-wrap: nowrap;
 }
-.help-search .vacancy.accordion .block_head .title {
-    width: calc(100% - 120px);
-}
+
 
 
 /* HELP_SEARCH END */

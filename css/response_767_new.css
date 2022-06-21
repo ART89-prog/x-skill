@@ -522,6 +522,9 @@
     width: calc(100% + 40px);
     left: -20px;
 }
+.help-search .vacancy.accordion .block_head .title {
+    width: calc(100% - 120px);
+}
 
 
 /* HELP_SEARCH END */
