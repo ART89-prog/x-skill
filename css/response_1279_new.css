@@ -555,4 +555,41 @@
 /* GALLERY END */
 
 
+/* HELP START */
+
+    .help_info .form_wrap {
+        padding: 30px;
+    }
+    .help_info form input {
+        height: 65px;
+        padding-left: 80px;
+        font-size: var(--font_size2);
+    }
+    .help_info .form_wrap button {
+        left: 55px;
+    }
+    .help_info .form_wrap button img {
+        width: 37px;
+    }
+
+/* HELP END */
+
+
+/* HELP_PAGE START */
+
+.help-page_info .links {
+    padding: 30px;
+}
+.help-page_info .links a {
+    padding: 30px;
+    font-size: var(--font_size2);
+}
+.help-page_info .block_head a {
+    font-size: 22px;
+}
+
+
+/* HELP_PAGE END */
+
+
 }

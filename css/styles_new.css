@@ -2257,6 +2257,9 @@ input[type="search"]::-webkit-search-results-decoration {
     display: none; 
 }
 
+.help .vacancy.vacancy.accordion .data {
+    padding: 0 36px;
+}
 .help .vacancy.vacancy.accordion .data a {
     display: block;
     text-decoration: none;
@@ -2265,7 +2268,7 @@ input[type="search"]::-webkit-search-results-decoration {
     padding-top: 27px;
     font-family: var(--font_family);
     font-weight: 400;
-    font-size: 26px;
+    font-size: var(--font_size2);
     line-height: 180%;
     letter-spacing: 0.02em;
     color: #16A3B9;
@@ -2273,14 +2276,11 @@ input[type="search"]::-webkit-search-results-decoration {
 .help .vacancy.accordion .data a::after {
     position: absolute;
     content: "";
-    width: calc(100% + 66px);
+    width: calc(100% + 72px);
     height: 1px;
-    left: -38px;
+    left: -36px;
     bottom: 0;
     background: #CDCDCD;
-}
-.help .vacancy.accordion .data a:last-child {
-    padding-bottom: 0;
 }
 .help .vacancy.accordion .data a:last-child:after {
     display: none;
@@ -2329,14 +2329,14 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 .help-page_info .links {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     background: linear-gradient(287.57deg, #DCF5F9 5.49%, rgba(220, 245, 249, 0) 110.89%);
     border-radius: 15px;
     padding: 47px 46px 60px;
 }
 .help-page_info .links > * {
-    width: calc(100%/2 - 40px);
-    margin-left: 40px;
+    width: calc(100%/2);
+   
 }
 .help-page_info .links a {
     text-decoration: none;
@@ -2349,6 +2349,11 @@ input[type="search"]::-webkit-search-results-decoration {
     line-height: 32px;
     color: #4B4B4B;
     display: flex;
+    align-items: center; 
+    margin-right: 40px;
+}
+.help-page_info .links a:last-child {
+    margin-right: 0;
 }
 .help-page_info .links a:nth-child(1) span {
     display: block;
@@ -2373,6 +2378,11 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 .help-search .vacancy.accordion .block_head {
     flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.help-search .vacancy.accordion .block_head .title {
+    width: calc(100% - 120px);
 }
 
 

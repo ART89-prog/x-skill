@@ -527,4 +527,27 @@
 /* GALLERY END */
 
 
+/* HELP_PAGE START */
+
+.help-page_info .links {
+    padding: 20px;
+}
+.help-page_info .links a {
+    margin-right: 20px;
+    padding: 20px;
+}
+.help-page_info .links a img {
+    width: 30px;
+}
+.help-page_info .block_head a {
+    font-size: var(--font_size2);
+}
+.help-page_info .block_head  a svg {
+    width: 23px;
+}
+
+
+/* HELP_PAGE END */
+
+
 }

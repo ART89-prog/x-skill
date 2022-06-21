@@ -489,38 +489,72 @@
 
 
 /* CALC START */
-.number_student, .list_parametr, .our_courser .title_choise, .total_sum{
-    padding:20px;
-}
-.number_student .title_choise .title, .total_title, .total_sum{
-    font-size: 18px;
-    line-height: 20px;
-}
-.number_student .tooltip .btn, .number_student .tooltip .btn svg {
-    width: 28px;
-    height: 28px;
-}
+    .number_student, .list_parametr, .our_courser .title_choise, .total_sum{
+        padding:20px;
+    }
+    .number_student .title_choise .title, .total_title, .total_sum{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .number_student .tooltip .btn, .number_student .tooltip .btn svg {
+        width: 28px;
+        height: 28px;
+    }
 
-.our_courser input[type=checkbox]{
-    width: 30px;
-    height: 30px;
-}
-.our_courser{
-    padding:0;
-}
-.list_parametr div{
-    font-size: 15px;
-    line-height: 160%;
-}
-.list_parametr div{
-    padding-left:25px;
-}
-.list_parametr div:before{
-    height: 12px;
-    width: 12px;
-    top: 6px;
-}
+    .our_courser input[type=checkbox]{
+        width: 30px;
+        height: 30px;
+    }
+    .our_courser{
+        padding:0;
+    }
+    .list_parametr div{
+        font-size: 15px;
+        line-height: 160%;
+    }
+    .list_parametr div{
+        padding-left:25px;
+    }
+    .list_parametr div:before{
+        height: 12px;
+        width: 12px;
+        top: 6px;
+    }
 
 /* CALC END */
+
+
+/* HELP START */
+
+.help .vacancy .accordion_item .head .title {
+    font-size: 17px;
+}
+.help_info .form_wrap {
+    padding: 15px;
+}
+.help_info form input {
+    padding-left: 60px;
+}
+.help_info .form_wrap button {
+    left: 30px;
+}
+.help .vacancy.vacancy.accordion .data {
+    padding: 0 15px;
+}
+.help .vacancy.vacancy.accordion .data a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.help .vacancy.accordion .data a::after {
+    width: calc(100% + 30px);
+    left: -15px;
+}
+
+/* HELP END */
+
+
+
+
+
 
 }

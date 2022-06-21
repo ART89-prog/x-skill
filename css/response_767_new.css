@@ -464,7 +464,67 @@
 
 }
 
+/* HELP START */
 
+    .help .vacancy .accordion_item .head .title {
+        font-size: 18px;
+    }
+    .help_info .form_wrap {
+        padding: 20px;
+    }
+    .help_info form input {
+        padding-left: 60px;
+    }
+    .help_info .form_wrap button {
+        left: 30px;
+    }
+    .help .vacancy.vacancy.accordion .data {
+        padding: 0 20px;
+    }
+    .help .vacancy.vacancy.accordion .data a {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+/* HELP END */
+
+
+/* HELP_PAGE START */
+
+.help-page_info .links {
+    flex-direction: column;
+}
+.help-page_info .links a {
+    margin-right: 0px;
+    margin-top: 15px;
+    width: 100%;
+}
+.help-page_info .links a:first-child {
+    margin-top: 0;
+}
+.help-page_info .links a span br {
+    display: none;
+}
+
+
+/* HELP_PAGE END */
+
+
+/* HELP_SEARCH START */
+
+.help-search .vacancy.accordion .block_head {
+    justify-content: space-between;
+}
+.help-search .vacancy.accordion .block_head button img {
+    width: 65px;
+}
+.help .vacancy.accordion .data a::after {
+    width: calc(100% + 40px);
+    left: -20px;
+}
+
+
+/* HELP_SEARCH END */
 
 
 
