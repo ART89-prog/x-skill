@@ -592,4 +592,64 @@
 /* HELP_PAGE END */
 
 
+/* TRAINING START */
+
+.training_wrap {
+    padding: 50px;
+}
+.training_text {
+    font-size: var(--font_size2);
+}
+.training_info {
+    align-items: center;
+}
+.training_procent {
+    font-size: 60px;
+}
+.training_quote {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+.training_resource {
+    font-size: var(--font_size2);
+}
+.training3 .training_quote {
+    z-index: -1;
+}
+.training7 .training_quote {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    top: auto;
+    bottom: 0;
+}
+.training7 .training_quote img {
+    width: 100%;
+    height: 100%;    
+}
+.training_author-name {
+    font-size: var(--font_size2);
+}
+.training8 .training_text br {
+    display: none;
+}
+.training_author-post {
+    font-size: var(--font_size2);
+}
+.training7 .training_info {
+    margin-bottom: 20px;
+}
+.training_author-photo {
+    width: 80px;
+    height: 88px;
+}
+.training4 .training_quote {
+    width: 160px;
+    height: 160px;
+}
+
+/* TRAINING END */
+
+
 }
