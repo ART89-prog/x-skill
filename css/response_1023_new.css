@@ -549,5 +549,37 @@
 
 /* HELP_PAGE END */
 
+/* CALC START */
 
+.number_student .tooltip .mini_modal.active, .number_student .tooltip .mini_modal {
+    right: -25px;
+    left: auto;
+    margin-left: 0;
+    width: 320px;
+    padding: 20px 56px 20px 20px;
+}
+
+.number_student .tooltip .mini_modal:after {
+    right: 24px;
+    left: auto;
+}
+
+.number_student .tooltip .title {
+    font-size: 19px;
+    line-height: 23px;
+    max-width: 100%;
+}
+
+.number_student .tooltip .desc {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 8px;
+    padding-left: 0;
+}
+.number_student .tooltip .close_btn, .number_student .tooltip .close_btn .icon {
+    width: 24px;
+    height: 24px;
+}
+
+/* CALC END */
 }

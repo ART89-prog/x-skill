@@ -172,6 +172,34 @@ $(() => {
 
 
 	if (is_touch_device()) {
+		// Подменю на тач скрине
+		/*$('header .menu_item > a .arr').parent().addClass("sub_link");*/
+		$('header .menu_item > a.sub_link').addClass('touch_link')
+
+		$('header .menu_item > a.sub_link').on('click', function (e) {
+			$('header .menu_item > a.sub_link').removeClass("active");
+			$(this).addClass("active");
+			const $dropdown = $(this).next();	
+			console.log($dropdown.css('visibility'));		
+			if ($dropdown.css('visibility') === 'hidden') {
+				e.preventDefault()
+
+				$('header .menu .sub_menu').removeClass('show')
+				$dropdown.addClass('show')
+
+				$('body').css('cursor', 'pointer')
+			}
+		})
+
+		// Закрываем под. меню при клике за её пределами
+		$(document).click((e) => {
+			if ($(e.target).closest('.menu').length === 0) {
+				$('header .menu .sub_menu').removeClass('show')
+
+				$('body').css('cursor', 'default')
+			}
+		})
+
 		// Закрытие моб. меню свайпом справо на лево
 		let ts
 

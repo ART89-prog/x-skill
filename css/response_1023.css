@@ -247,6 +247,41 @@
 
 
 
+    header .menu_item .sub_menu {
+        position: relative;
+        top: 0;
+        left: 0;
+        display: none;
+        visibility: hidden;
+        width: 100%;
+        pointer-events: auto;
+        opacity: 1;
+    }
+
+    header .menu_item:hover .sub_menu{
+        display: none;
+        visibility: hidden;
+    }
+
+    header .sub_menu:before{
+        display: none;
+    }
+
+    header .menu_item > a.touch_link + .sub_menu.show {
+        display: block;
+        visibility: visible;
+        border-radius: 0;
+        box-shadow: none;
+        background: #16A3B9;
+    }
+
+    header .sub_menu a {
+        font-size: 18px;
+        color:#fff;
+    }
+
+
+
     /*----------------
         Block head
     ----------------*/
