@@ -526,31 +526,69 @@
 
 /* HELP START */
 
-.help .vacancy .accordion_item .head .title {
-    font-size: 17px;
-}
-.help_info .form_wrap {
-    padding: 15px;
-}
-.help_info form input {
-    padding-left: 60px;
-}
-.help_info .form_wrap button {
-    left: 30px;
-}
-.help .vacancy.vacancy.accordion .data {
-    padding: 0 15px;
-}
-.help .vacancy.vacancy.accordion .data a {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-.help .vacancy.accordion .data a::after {
-    width: calc(100% + 30px);
-    left: -15px;
-}
+    .help .vacancy .accordion_item .head .title {
+        font-size: 17px;
+    }
+    .help_info .form_wrap {
+        padding: 15px;
+    }
+    .help_info form input {
+        padding-left: 60px;
+    }
+    .help_info .form_wrap button {
+        left: 30px;
+    }
+    .help .vacancy.vacancy.accordion .data {
+        padding: 0 15px;
+    }
+    .help .vacancy.vacancy.accordion .data a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .help .vacancy.accordion .data a::after {
+        width: calc(100% + 30px);
+        left: -15px;
+    }
 
 /* HELP END */
+
+
+/* TRAINING START */
+
+.training_procent {
+    font-size: 36px;
+}
+.training_wrap {
+    padding: 20px;
+}
+.training1 .training_wrap,
+.training2 .training_wrap {
+    flex-direction: column;
+    padding-top: 90px;
+}
+.training1 .training_quote,
+.training2 .training_quote {
+    position: absolute;
+    top: 20px;
+    right: 50%;
+    transform: translateX(50%);
+}
+.training8 .training_link,
+.training9 .training_link {
+    width: 100%;
+    height: 50px;
+}
+.training_author-photo {
+    width: 60px;
+    height: 66px;
+    margin-right: 17px;
+}
+.training6 .training_info {
+    margin-left: 0;
+}
+
+
+/* TRAINING END */
 
 
 

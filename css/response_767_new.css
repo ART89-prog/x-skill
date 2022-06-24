@@ -491,20 +491,20 @@
 
 /* HELP_PAGE START */
 
-.help-page_info .links {
-    flex-direction: column;
-}
-.help-page_info .links a {
-    margin-right: 0px;
-    margin-top: 15px;
-    width: 100%;
-}
-.help-page_info .links a:first-child {
-    margin-top: 0;
-}
-.help-page_info .links a span br {
-    display: none;
-}
+    .help-page_info .links {
+        flex-direction: column;
+    }
+    .help-page_info .links a {
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 100%;
+    }
+    .help-page_info .links a:first-child {
+        margin-top: 0;
+    }
+    .help-page_info .links a span br {
+        display: none;
+    }
 
 
 /* HELP_PAGE END */
@@ -512,22 +512,44 @@
 
 /* HELP_SEARCH START */
 
-.help-search .vacancy.accordion .block_head {
-    justify-content: space-between;
-}
-.help-search .vacancy.accordion .block_head button img {
-    width: 65px;
-}
-.help .vacancy.accordion .data a::after {
-    width: calc(100% + 40px);
-    left: -20px;
-}
-.help-search .vacancy.accordion .block_head .title {
-    width: calc(100% - 120px);
-}
+    .help-search .vacancy.accordion .block_head {
+        justify-content: space-between;
+    }
+    .help-search .vacancy.accordion .block_head button img {
+        width: 65px;
+    }
+    .help .vacancy.accordion .data a::after {
+        width: calc(100% + 40px);
+        left: -20px;
+    }
+    .help-search .vacancy.accordion .block_head .title {
+        width: calc(100% - 120px);
+    }
 
 
 /* HELP_SEARCH END */
+
+
+
+/* TRAINING START */
+
+.training4 .training_wrap {
+    flex-direction: column;
+}
+.training6 .training_wrap {
+    flex-direction: column;
+}
+.training6 .training_quote {
+    margin: 0 auto 20px;
+    text-align: center;
+}
+.training8 .training_link, 
+.training9 .training_link {
+    height: 50px;
+}
+
+
+/* TRAINING END */
 
 
 
