@@ -1360,6 +1360,7 @@ ul li .icon {
     border-radius: 20px;
     height: 295px;
     cursor: pointer;
+    object-fit: cover;
 }
 .post .slick-next {
     right: -21px;
@@ -2203,7 +2204,7 @@ ol li:before {
     color: #16A3B9;
 }
 
-.our_courser_hide, .trainer_hide{
+.our_courser_hide, .trainer_hide, .simulator_hide{
     display: none;
 }
 /* CALC END */
@@ -2398,3 +2399,14 @@ input[type="search"]::-webkit-search-results-decoration {
 
 
 /* HELP_SEARCH END */
+
+
+.tooltip .mini_modal a{
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+    border-bottom: dotted;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+}
