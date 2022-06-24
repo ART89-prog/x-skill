@@ -61,18 +61,7 @@ $(() => {
         },
     });
 
-    $("#js_trainer").ionRangeSlider({        
-        min: 1,
-        max: 100,
-        from: 15,
-        step: 1,
-        skin: "round",
-        onChange: function (data) {
-            calculate()
-        },
-    });
-
-    $("#js_simulator").ionRangeSlider({        
+     $("#js_trainer").ionRangeSlider({        
         min: 1,
         max: 100,
         from: 15,
@@ -93,11 +82,6 @@ $(() => {
         calculate()
     })
 
-    $(".js_simulator").on('change', function (e) {
-        $(".simulator_hide").slideToggle();
-        calculate()
-    })
-
     $(".js_check").on('change', function (e) {        
         calculate()
     })
@@ -113,10 +97,10 @@ function calculate(){
     let number_student = $("#js_number_student").val();
     let total = 0
     // базовая стоимость
-    $(".js-base").html(number_student*125+" руб. <br><i>125 руб. * "+number_student+" чел.</i>"); 
+    $(".js-base").html(number_student*500+" руб. <br><i>500 руб. * "+number_student+" чел.</i>"); 
     $(".js-count-student").text(number_student);
 
-    total += number_student*125;
+    total += number_student*500;
 
     // если курсы выбраны
     if($(".js_our_courses").prop("checked")){
@@ -153,34 +137,14 @@ function calculate(){
         $(".js-trainer").text(0);     
     }
 
-     // если симуляторы выбраны
-    if($(".js_simulator").prop("checked")){
-        let simulator = $("#js_simulator").val();
-        $(".js-simulator").html(number_student*50*simulator+" руб.<br><i>"+simulator+" шт. по 50 руб. * "+number_student+" чел.</i>");      
-        total += number_student*50*simulator; 
-    }
-    else
-    {
-        $(".js-simulator").text(0);     
-    }
-
-
-    /*if($(".js_admin").prop("checked")){  */     
+    if($(".js_admin").prop("checked")){       
         $(".js-admin").html(number_student * 30 + " руб.<br><i>30 руб. * "+number_student+" чел.</i>");       
         total += number_student * 30; 
-    /*}
+    }
     else
     {
         $(".js-admin").text("Нет");     
-    }  */  
-
-    if($(".js_admin").prop("checked")){      
-        $(".js-admin2").html("&nbsp;0 руб.<br><i>бесплатно</i>");      
-    }
-    else
-    {
-        $(".js-admin2").text("Нет");     
-    } 
+    }    
 
     $(".js-sum").text(total)
 
