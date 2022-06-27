@@ -604,6 +604,19 @@
         width: 15px;
         height: 17px;
     }
+    .before_after .way {
+        transform: translateY(-66px);
+    }
+    .before_after .way .line {
+        height: 150px;
+    }
+    .before-block {
+        width: calc(100% - 45px);
+        margin-right: 45px;
+    }
+    .after-block {
+        margin-top: 25px;
+    }
 
 
 /* BEFORE_AFTER END */

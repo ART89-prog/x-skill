@@ -599,13 +599,35 @@
 
 /* BLOG-NEW END */
 
+
+
+/* BEFORE_AFTER START */
+
     .before-block_wrapper {
         padding: 10px;
         border-radius: 10px;
     } 
-
-/* BEFORE_AFTER START */
-
+    .media-control.media-play {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+    .way .icon_start, 
+    .way .icon_end {
+        width: 22px;
+        height: 22px;
+    }
+    .before_after .way .line {
+        height: 140px;
+        width: 2px;
+    }
+    .before_after .way {
+        transform: translateY(-48px);
+    }
+    .before-block {
+        width: calc(100% - 33px);
+        margin-right: 33px;
+    }
 
 
 /* BEFORE_AFTER END */

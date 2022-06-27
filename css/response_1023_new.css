@@ -768,6 +768,12 @@
         width: 19px;
         height: 21px;
     }
+    .before_after .way {
+        transform: translateY(-81px);
+    }
+    .before_after .way .line {
+        height: 180px;
+    }
 
 
 
