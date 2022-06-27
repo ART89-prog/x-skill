@@ -747,16 +747,28 @@
 
 /* BEFORE_AFTER START */
 
-.before-block_wrapper {
-    padding: 20px;
-}
-.before-block_wrapper .progress {
-    margin-left: 15px;
-    margin-right: 15px;
-}
-.before-block_wrapper button {
-    margin-right: 20px;
-}
+    .before-block_wrapper {
+        padding: 20px;
+    }
+    .media-text {
+        font-size: var(--font_size2);
+        line-height: 130%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .media-control.media-play {
+        width: 60px;
+        height: 60px;
+    }
+    .media-play-symbol {
+        width: 24px;
+        height: 22px;
+    }
+    .media-pause-symbol {
+        width: 19px;
+        height: 21px;
+    }
+
 
 
 /* BEFORE_AFTER END */

@@ -3004,12 +3004,35 @@ input[type="search"]::-webkit-search-results-decoration {
     font-size: 23px;
     line-height: 27px;
     color: #010101;  
-    margin-left: 20px;
+}
+.media-control.media-play {
+    width: 73px;
+    height: 73px;
+    background: #BCE01A;
+    border-radius: 12px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     margin-right: 20px;
 }
-
-.media-control.media-play {
-
+.media-play-symbol {
+    width: 30px;
+    height: 28px;
+    fill: #fff;
+    display: block;
+}
+.media-pause-symbol {
+    width: 19px;
+    height: 26px;
+    fill: #fff;
+    display: block;
+}
+.media-range {
+    height: 5px;
+}
+.media-slider {
+    margin-left: 20px;
 }
 
 

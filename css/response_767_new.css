@@ -582,29 +582,28 @@
 
 /* BEFORE_AFTER START */
 
-.before-block_wrapper {
-    padding: 15px;
-    border-radius: 14px;
-} 
-.before-block_title {
-    margin-bottom: 10px;
-}
-.before-block_wrapper button {
-    width: 43px;
-    height: 43px;
-    margin-right: 15px;
-}
-.before-block_wrapper .time {
-    font-size: var(--font_size2);
-}
-.before-block_wrapper .progress {
-    margin-left: 11px;
-    margin-right: 11px;
-    height: 3px;
-}
-.before_after .way {
-    margin: 20px 0;
-}
+    .before-block_wrapper {
+        padding: 15px;
+        border-radius: 14px;
+    } 
+    .before-block_title {
+        margin-bottom: 10px;
+    }
+    .media-text {
+        font-size: var(--font_size2);
+    }
+    .media-control.media-play {
+        width: 45px;
+        height: 45px;
+    }
+    .media-play-symbol {
+        width: 17px;
+        height: 15px;
+    }
+    .media-pause-symbol {
+        width: 15px;
+        height: 17px;
+    }
 
 
 /* BEFORE_AFTER END */

@@ -256,12 +256,12 @@
 
 /* TRAINING START */
 
-.training4 .training_text br {
-    display: none;
-}
-.training4 .training_info {
-    align-items: center;
-}
+    .training4 .training_text br {
+        display: none;
+    }
+    .training4 .training_info {
+        align-items: center;
+    }
 
 
 
