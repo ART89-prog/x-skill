@@ -2972,5 +2972,24 @@ input[type="search"]::-webkit-search-results-decoration {
     background: #16A3B9;
 }
 
+.audio_message {
+    display: flex;
+    width: 368px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 21px;
+    background: #333;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+.audio_media {
+    width: 95%;
+}
+
+
+
+
 
 /* BEFORE_AFTER END */
