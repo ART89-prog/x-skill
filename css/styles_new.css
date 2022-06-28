@@ -2897,6 +2897,10 @@ input[type="search"]::-webkit-search-results-decoration {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    margin-bottom: 40px;
+}
+.before_after-container:last-child {
+    margin-bottom: 0;
 }
 .before-block {
     width: 44%;
